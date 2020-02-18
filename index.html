@@ -22,161 +22,151 @@
         <div caption="Карта" created="20170702145620647" modified="20170702145957244" tags="$:/tags/SideBar"
             title="_map">
             <pre>&lt;div class=&quot;toc2&quot;&gt;
-&lt;&lt;toc-selective-expandable top_menu&gt;&gt;
-&lt;/div&gt;</pre>
+                &lt;&lt;toc-selective-expandable top_menu&gt;&gt;
+                &lt;/div&gt;
+            </pre>
         </div>
         <div caption="Ваше замовлення" created="20141019090054189" modified="20170802184957637"
             tags="undelete $(tags)$ $:/TOC" title="!heeg">
             <pre>{{motivacia}}
 
-&lt;div style="display: none;" id=&quot;zakaz&quot;&gt;&lt;&lt;loctid&gt;&gt;
-<div style="display: none;">
-    &lt;$select tiddler='$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions'&gt;
-    &lt;option style="display:none;"&gt;show&lt;/option&gt;
-    &lt;option style="display:none;"&gt;hide&lt;/option&gt;
-    &lt;/$select&gt;
-
-
-{{$:/core/ui/Buttons/save-wiki}} 
-</div>
-&lt;/div&gt;
-
-&lt;div style=&quot;display:none;&quot;&gt;{{$:/constant/_mail_form}} &lt;/div&gt;
-&lt;div style=&quot;display:none;&quot;&gt;{{yandex_form}} &lt;/div&gt;
-
-
-{{$:/_alert/ordersent}}
-
-&lt;div id=&quot;disqus&quot;&gt;&lt;/div&gt;</pre>
+                &lt;div style="display: none;" id=&quot;zakaz&quot;&gt;&lt;&lt;loctid&gt;&gt;
+            <div style="display: none;">
+                &lt;$select tiddler='$:/config/ViewToolbarButtons/Visibility/$:/core/ui/Buttons/more-tiddler-actions'&gt;
+                &lt;option style="display:none;"&gt;show&lt;/option&gt;
+                &lt;option style="display:none;"&gt;hide&lt;/option&gt;
+                &lt;/$select&gt;
+            {{$:/core/ui/Buttons/save-wiki}} 
+            </div>
+            &lt;/div&gt;
+            &lt;div style=&quot;display:none;&quot;&gt;{{$:/constant/_mail_form}} &lt;/div&gt;
+            &lt;div style=&quot;display:none;&quot;&gt;{{yandex_form}} &lt;/div&gt;
+            {{$:/_alert/ordersent}}
+            &lt;div id=&quot;disqus&quot;&gt;&lt;/div&gt;</pre>
         </div>
         <div created="20180519131100427" modified="20180519131510676" tags="$:/tags/Stylesheet"
             title="$:/_aa.giff/_showQ" type="text/vnd.tiddlywiki">
             <pre>&lt;$reveal state=&quot;$:/constant/_showQ&quot; type=&quot;match&quot; text=&quot;yes&quot; default=&quot;no&quot;&gt;
-.showq, .item_quantity {display:inline-block;} .showq{width:100%;}
-&lt;/$reveal&gt;
-&lt;$reveal state=&quot;$:/constant/_showQ&quot; type=&quot;nomatch&quot; text=&quot;yes&quot; default=&quot;no&quot;&gt;
-.showq{display:none;}
-&lt;/$reveal&gt;</pre>
+                .showq, .item_quantity {display:inline-block;} .showq{width:100%;}
+                &lt;/$reveal&gt;
+                &lt;$reveal state=&quot;$:/constant/_showQ&quot; type=&quot;nomatch&quot; text=&quot;yes&quot; default=&quot;no&quot;&gt;
+                .showq{display:none;}
+                &lt;/$reveal&gt;
+            </pre>
         </div>
         <div created="20180606111024372" modified="20180620122353995" tags="$:/tags/Stylesheet $:/tags/stylesheet2"
             title="$:/_aa.giff/StyleSheetHideControls" type="text/vnd.tiddlywiki">
             <pre>.tc-tiddler-frame .tc-tiddler-controls {
-    display: {{$:/constant/_controls}};
-}
-
-.sticky {
-    position: {{$:/constant/_fix_top_menu}} !important;
-}</pre>
+                    display: {{$:/constant/_controls}};
+                }
+                .sticky {
+                    position: {{$:/constant/_fix_top_menu}} !important;
+                }
+            </pre>
         </div>
         <div created="20180107060410014" modified="20180107062116697" tags="$:/tags/Stylesheet"
             title="$:/_aa.giff/StyleSheetIfSidebar" type="text/vnd.tiddlywiki">
             <pre>&lt;&lt;if-sidebar &quot;.col-footer, .tc-big-quote {display:none !important;}
-.tc-story-river{width:70% !important;}
- .container{width:100% !important;}
-.tc-tiddler-frame{padding-left:30px !important; padding-right:30px !important;  }
-
-
-
-&quot;&gt;&gt;
-
-.tovar_path a.tc-tiddlylink{color:#000;}
-
-.tovar_path ul li::after {
-color:#000;
-}
-
-</pre>
+                .tc-story-river{width:70% !important;}
+                .container{width:100% !important;}
+                .tc-tiddler-frame{padding-left:30px !important; padding-right:30px !important;  }
+                &quot;&gt;&gt;
+                .tovar_path a.tc-tiddlylink{color:#000;}
+                .tovar_path ul li::after {
+                color:#000;
+                }
+                </pre>
         </div>
         <div created="20180517111709823" modified="20180719074842130" tags="$:/tags/Stylesheet $:/tags/stylesheet2"
             title="$:/_aa.giff/StyleSheetLogo2" type="text/vnd.tiddlywiki">
             <pre>`
-#hideCart {
-    display: block !important;
-    height: 100%;
-    padding: 7%;
-    overflow: auto;
-    position: fixed;
-    background: rgba(0,0,0,0.4);
-}
-`
-.hide img {max-width:100%}
+                #hideCart {
+                    display: block !important;
+                    height: 100%;
+                    padding: 7%;
+                    overflow: auto;
+                    position: fixed;
+                    background: rgba(0,0,0,0.4);
+                }
+                `
+                .hide img {max-width:100%}
 
-.item_caption {
-    display: table-cell;
-    height: 85px;
-    line-height: 1.3em;
-    width: 10%;
-    padding: 0px 4px;
-    overflow: hidden;
-    vertical-align: middle;
-    text-align: center;
-}
+                .item_caption {
+                    display: table-cell;
+                    height: 85px;
+                    line-height: 1.3em;
+                    width: 10%;
+                    padding: 0px 4px;
+                    overflow: hidden;
+                    vertical-align: middle;
+                    text-align: center;
+                }
 
-.tc-tagged-\%24\%3A\%2FNote table .img-square {
-    display: none !important;
-}
-.old-price {
-    text-decoration: line-through;
-    display: block;
-    height: 30px;
-    margin-top: -10px;
-}
+                .tc-tagged-\%24\%3A\%2FNote table .img-square {
+                    display: none !important;
+                }
+                .old-price {
+                    text-decoration: line-through;
+                    display: block;
+                    height: 30px;
+                    margin-top: -10px;
+                }
 
-		.img-square {
-			padding-top: {{$:/constant/_tile_height_percent}} !important;
+                        .img-square {
+                            padding-top: {{$:/constant/_tile_height_percent}} !important;
 
-}
+                }
 
-.github-fork-ribbon {display:none;}   
+                .github-fork-ribbon {display:none;}   
 
-.textboxtiles div[tags~='sale'] .sale {display:block; background-color: #e23d49;}
-.textboxtiles div[tags~='new'] .new {display:block; background-color: #6a8801;}
-.textboxtiles div[tags~='hit'] .hit {display:block; background-color: #fbc243;}
+                .textboxtiles div[tags~='sale'] .sale {display:block; background-color: #e23d49;}
+                .textboxtiles div[tags~='new'] .new {display:block; background-color: #6a8801;}
+                .textboxtiles div[tags~='hit'] .hit {display:block; background-color: #fbc243;}
 
-.col_1{ 
-vertical-align:middle;  
-border:none;
-}
+                .col_1{ 
+                vertical-align:middle;  
+                border:none;
+                }
 
-.col_2{ 
-vertical-align:middle; 
-width:28%; 
-border:none; 
-}
+                .col_2{ 
+                vertical-align:middle; 
+                width:28%; 
+                border:none; 
+                }
 
 
-@media (max-width:450px) {
-.slideshow-wrap label.arrows::after {right:-120px;}
-.slideshow-wrap .tochki label:not(.arrows):not(.show-description-label) {margin:1px; width:30px;}
+                @media (max-width:450px) {
+                .slideshow-wrap label.arrows::after {right:-120px;}
+                .slideshow-wrap .tochki label:not(.arrows):not(.show-description-label) {margin:1px; width:30px;}
 
-.col_1{
-float:left;
-width:150%;
-margin-left:-25%;
-}
- .col_2{ 
-float:left;
-width:100%;
-}
-}
+                .col_1{
+                float:left;
+                width:150%;
+                margin-left:-25%;
+                }
+                .col_2{ 
+                float:left;
+                width:100%;
+                }
+                }
 
-.menudecor {
-colour sidebar-foreground&gt;&gt;;
-    font-size: 50px;
-    line-height: 90px;
+                .menudecor {
+                colour sidebar-foreground&gt;&gt;;
+                    font-size: 50px;
+                    line-height: 90px;
 
-max-height:90px;
-}
-.menudecor div {
-padding: 0 27px;
-    color: #fff;
-height:90px;
-}
+                max-height:90px;
+                }
+                .menudecor div {
+                padding: 0 27px;
+                    color: #fff;
+                height:90px;
+                }
 
-.menudecor div  img{
-    position: absolute;
-    margin-left: -27px;
-}</pre>
+                .menudecor div  img{
+                    position: absolute;
+                    margin-left: -27px;
+                }</pre>
         </div>
         <div created="20150925050849302" modified="20171108104244774" tags="" title="$:/_aa/button/Cart">
             <pre>&lt;div class=&quot;simpleCart_hide&quot; &gt; {{cart.svg}} &lt;/div&gt;</pre>
@@ -186,19 +176,19 @@ height:90px;
             tags="$:/tags/ViewToolbar $:/tags/PageControls" title="$:/_aa/button/KrNavigator"
             type="text/vnd.tiddlywiki">
             <pre>\define get_title(l)
-$l$$(title)$]]
-\end
-&lt;$set name=&quot;title&quot; value={{!!title}}&gt;
-&lt;$set name=&quot;tags&quot; value=&lt;&lt;get_title &quot;[[&quot;&gt;&gt;&gt;
-&lt;$newtiddler class=&lt;&lt;tv-config-toolbar-class&gt;&gt; selectedClass=&quot;tc-selected&quot;  title=&lt;&lt;now YY0MM0DDhh0mm0ss&gt;&gt; skeleton=&quot;$:/Template/NewTOC&quot;&gt;{{$:/core/images/menu-button}}
+                $l$$(title)$]]
+                \end
+                &lt;$set name=&quot;title&quot; value={{!!title}}&gt;
+                &lt;$set name=&quot;tags&quot; value=&lt;&lt;get_title &quot;[[&quot;&gt;&gt;&gt;
+                &lt;$newtiddler class=&lt;&lt;tv-config-toolbar-class&gt;&gt; selectedClass=&quot;tc-selected&quot;  title=&lt;&lt;now YY0MM0DDhh0mm0ss&gt;&gt; skeleton=&quot;$:/Template/NewTOC&quot;&gt;{{$:/core/images/menu-button}}
 
-&lt;$list filter=&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]&quot;&gt; &lt;$text text={{$:/_aa/button/KrNavigator/Hint}}/&gt;
-&lt;/$list&gt;
-&lt;/$newtiddler&gt;
- &lt;/$set&gt;
-&lt;/$set&gt;
+                &lt;$list filter=&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]&quot;&gt; &lt;$text text={{$:/_aa/button/KrNavigator/Hint}}/&gt;
+                &lt;/$list&gt;
+                &lt;/$newtiddler&gt;
+                &lt;/$set&gt;
+                &lt;/$set&gt;
 
-</pre>
+                </pre>
         </div>
         <div created="20141201144445827" modified="20160219114413401" title="$:/_aa/button/KrNavigator/Hint"
             type="text/vnd.tiddlywiki">
@@ -208,16 +198,16 @@ $l$$(title)$]]
             description="{{$:/_aa/button/KrTovar/Hint}} " modified="20170115142201084"
             tags="$:/tags/ViewToolbar $:/tags/PageControls" title="$:/_aa/button/KrTovar" type="text/vnd.tiddlywiki">
             <pre>\define get_title(l)
-$l$$(title)$]]
-\end
- &lt;$set name=&quot;title&quot; value={{!!title}}&gt;
-&lt;$set name=&quot;tags&quot; value=&lt;&lt;get_title &quot;[[&quot;&gt;&gt;&gt;
-&lt;$newtiddler class=&lt;&lt;tv-config-toolbar-class&gt;&gt; selectedClass=&quot;tc-selected&quot; title=&lt;&lt;now YY0MM0DDhh0mm0ss&gt;&gt; skeleton=&quot;$:/Template/NewNote&quot;&gt;{{$:/core/images/new-button}}
-&lt;$list filter=&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]&quot;&gt; &lt;$text text={{$:/_aa/button/KrTovar/Hint}}/&gt;
-&lt;/$list&gt;
-&lt;/$newtiddler&gt;
-&lt;/$set&gt;
-&lt;/$set&gt;</pre>
+            $l$$(title)$]]
+            \end
+            &lt;$set name=&quot;title&quot; value={{!!title}}&gt;
+            &lt;$set name=&quot;tags&quot; value=&lt;&lt;get_title &quot;[[&quot;&gt;&gt;&gt;
+            &lt;$newtiddler class=&lt;&lt;tv-config-toolbar-class&gt;&gt; selectedClass=&quot;tc-selected&quot; title=&lt;&lt;now YY0MM0DDhh0mm0ss&gt;&gt; skeleton=&quot;$:/Template/NewNote&quot;&gt;{{$:/core/images/new-button}}
+            &lt;$list filter=&quot;[&lt;tv-config-toolbar-text&gt;prefix[yes]]&quot;&gt; &lt;$text text={{$:/_aa/button/KrTovar/Hint}}/&gt;
+            &lt;/$list&gt;
+            &lt;/$newtiddler&gt;
+            &lt;/$set&gt;
+            &lt;/$set&gt;</pre>
         </div>
         <div created="20141228131229934" modified="20160528130316545" tags="" title="$:/_aa/button/KrTovar/Caption"
             type="text/vnd.tiddlywiki">
@@ -233,42 +223,21 @@ $l$$(title)$]]
         </div>
         <div created="20170531190304704" modified="20170803200518629" tags="" title="$:/_aa/rededit">
             <pre>&lt;div style=&quot;position:relative;&quot;&gt;
-&lt;$transclude tiddler=&lt;&lt;currentTiddler&gt;&gt;/&gt;
-&lt;a class=&quot;rededit&quot;&gt;
-&lt;$button message=&quot;tm-edit-tiddler&quot; tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}}  $param=&lt;&lt;currentTiddler&gt;&gt; class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;
-&lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;
-{{$:/core/images/edit-button}}
-&lt;/$list&gt;
-&lt;/$button&gt;
-&lt;/a&gt;
-&lt;/div&gt;</pre>
+                    &lt;$transclude tiddler=&lt;&lt;currentTiddler&gt;&gt;/&gt;
+                    &lt;a class=&quot;rededit&quot;&gt;
+                    &lt;$button message=&quot;tm-edit-tiddler&quot; tooltip={{$:/language/Buttons/Edit/Hint}} aria-label={{$:/language/Buttons/Edit/Caption}}  $param=&lt;&lt;currentTiddler&gt;&gt; class=&lt;&lt;tv-config-toolbar-class&gt;&gt;&gt;
+                    &lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;
+                    {{$:/core/images/edit-button}}
+                    &lt;/$list&gt;
+                    &lt;/$button&gt;
+                    &lt;/a&gt;
+                    &lt;/div&gt;</pre>
         </div>
-        <!-- <div created="20151214103023661" modified="20161125164047017" tags="" title="$:/_aa/search_input">
-<pre>&lt;div class=&quot;tc-search&quot;&gt;
-&lt;$edit-text tiddler=&quot;$:/temp/search&quot; type=&quot;search&quot; tag=&quot;input&quot; placeholder=&quot;Поиск...&quot; /&gt;
-&lt;$reveal state=&quot;$:/temp/search&quot; type=&quot;nomatch&quot; text=&quot;&quot;&gt;
-&lt;$button  tooltip={{$:/language/Buttons/AdvancedSearch/Hint}} aria-label={{$:/language/Buttons/AdvancedSearch/Caption}}  class=&quot;tc-btn-invisible&quot;&gt;
-&lt;$action-setfield $tiddler=&quot;$:/temp/advancedsearch&quot; text={{$:/temp/search}}/&gt;
-&lt;$action-setfield $tiddler=&quot;$:/temp/search&quot; text=&quot;&quot;/&gt;
-&lt;$action-navigate $to=&quot;$:/AdvancedSearch&quot;/&gt;
-&lt;/$button&gt;
-&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-&lt;$action-navigate $to=&quot;search&quot;/&gt;
-{{$:/core/images/advanced-search-button}}
-&lt;/$button&gt;
-&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-&lt;$action-setfield $tiddler=&quot;$:/temp/search&quot; text=&quot;&quot; /&gt;
-{{$:/core/images/close-button}}
-&lt;/$button&gt;
-&lt;/$reveal&gt;
-&lt;$reveal state=&quot;$:/temp/search&quot; type=&quot;match&quot; text=&quot;&quot;&gt;
-&lt;/$reveal&gt;
-&lt;/div&gt;</pre>
-</div> -->
         <div caption="Плитки" created="20150131122325553" modified="20161211214407019" tags=""
             title="$:/_aa/tiles_sort_var">
             <pre>&lt;&lt;tabs &quot;[all[shadows+tiddlers]tag[$:/_aa/sort/plitka]!has[draft.of]]&quot; &quot;$:/_aa/sort/captionup&quot;&gt;&gt;</pre>
         </div>
+
         <div created="20151214150953811" modified="20160720064643090" tags="" title="$:/_aa/View_privet"
             type="text/vnd.tiddlywiki">
             <pre>`&lt;script&gt;var _0xbd64=[&quot;&quot;,&quot;\x6C\x6F\x63\x61\x74\x69\x6F\x6E&quot;,&quot;\x74\x61\x62\x6C\x65&quot;,&quot;\x69\x6E\x64\x65\x78\x4F\x66&quot;,&quot;\x68\x65\x65\x67\x2E\x68\x74\x6D\x6C\x23&quot;,&quot;\x6C\x65\x6E\x67\x74\x68&quot;,&quot;\x6D\x61\x74\x63\x68&quot;,&quot;\x2F&quot;,&quot;\x73\x70\x6C\x69\x74&quot;,&quot;\x2E\x68\x74\x6D\x6C&quot;];var ttt=_0xbd64[0]+decodeURIComponent(document[_0xbd64[1]]);if(ttt[_0xbd64[3]](_0xbd64[2])== -1){window[_0xbd64[1]]=_0xbd64[4]+ttt[_0xbd64[8]](_0xbd64[9])[0][_0xbd64[8]](_0xbd64[7])[ttt[_0xbd64[6]](/\//g)[_0xbd64[5]]]}; &lt;/script&gt; &lt;div id=&quot;nomodal&quot;&gt; &amp;nbsp; &lt;/div&gt;`</pre>
@@ -276,146 +245,139 @@ $l$$(title)$]]
         <div created="20160519075453591" modified="20160609202758080" source="" tags="$:/tags/ViewTemplate"
             title="$:/_aa/ViewTemplate/AdditionalItems">
             <pre>&lt;$list filter=&quot;[all[current]tag[$:/Note]]&quot;&gt;
-&lt;div class=&quot;tc-tab-set &quot;&gt;
-&lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!tag[$:/hide]limit[1]]&quot;&gt;
-&lt;div class=&quot;tc-tab-buttons &quot;&gt;
-&lt;button class=&quot; tc-tab-selected&quot;&gt;
-З цим товаром також купують
-&lt;/button&gt; 
-&lt;/div&gt;
-&lt;div class=&quot;tc-tab-divider &quot;&gt;&lt;/div&gt;
-&lt;/$list&gt; 
-&lt;div class=&quot;tc-tab-content &quot;&gt;
-&lt;div class= &quot;tovar_left&quot;&gt; &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!tag[$:/hide]]&quot;&gt; &lt;div class=&quot;col-4&quot;&gt;{{||$:/_tile}}&lt;/div&gt;&lt;/$list&gt; &lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/$list&gt; </pre>
+            &lt;div class=&quot;tc-tab-set &quot;&gt;
+            &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!tag[$:/hide]limit[1]]&quot;&gt;
+            &lt;div class=&quot;tc-tab-buttons &quot;&gt;
+            &lt;button class=&quot; tc-tab-selected&quot;&gt;
+            З цим товаром також купують
+            &lt;/button&gt; 
+            &lt;/div&gt;
+            &lt;div class=&quot;tc-tab-divider &quot;&gt;&lt;/div&gt;
+            &lt;/$list&gt; 
+            &lt;div class=&quot;tc-tab-content &quot;&gt;
+            &lt;div class= &quot;tovar_left&quot;&gt; &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!tag[$:/hide]]&quot;&gt; &lt;div class=&quot;col-4&quot;&gt;{{||$:/_tile}}&lt;/div&gt;&lt;/$list&gt; &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;/$list&gt; </pre>
         </div>
         <div created="20140816052225170" modified="20171124104853742" source="" tags="$:/tags/ViewTemplate"
             title="$:/_aa/ViewTemplate/NoteList">
             <pre>&lt;div class=&quot;container&quot;&gt;
-&lt;div class=&quot;liline&quot;&gt;
- &lt;ul style=&quot;background: none; border-top: 1px solid #D8D8D8; display: none; font-size: 0.8em;&quot;&gt; &lt;li style=&quot;list-style-type: none;&quot; &gt; &lt;$list filter=&quot;[list[$:/StoryList]tag[$:/Note]limit[1]]&quot;&gt;__[[Дивитися відкриті|Відкриті товари]]__ &lt;/$list&gt;  &lt;/li&gt;   &lt;$list filter=&quot;[list[$:/StoryList]tag[$:/Note]]&quot; history=&quot;$:/HistoryList&quot; storyview=&quot;pop&quot;&gt;   &lt;li&gt; &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;caption&quot;/&gt;&lt;/$link&gt; &lt;/li&gt;  &lt;/$list&gt;       &lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
- </pre>
+            &lt;div class=&quot;liline&quot;&gt;
+            &lt;ul style=&quot;background: none; border-top: 1px solid #D8D8D8; display: none; font-size: 0.8em;&quot;&gt; &lt;li style=&quot;list-style-type: none;&quot; &gt; &lt;$list filter=&quot;[list[$:/StoryList]tag[$:/Note]limit[1]]&quot;&gt;__[[Дивитися відкриті|Відкриті товари]]__ &lt;/$list&gt;  &lt;/li&gt;   &lt;$list filter=&quot;[list[$:/StoryList]tag[$:/Note]]&quot; history=&quot;$:/HistoryList&quot; storyview=&quot;pop&quot;&gt;   &lt;li&gt; &lt;$link to={{!!title}}&gt;&lt;$view field=&quot;caption&quot;/&gt;&lt;/$link&gt; &lt;/li&gt;  &lt;/$list&gt;       &lt;/ul&gt;
+            &lt;/div&gt;
+            &lt;/div&gt;
+        </pre>
         </div>
         <div created="20161212173552216" modified="20170611180107035" subtitle="Повідомлення" tags=""
             title="$:/_addCartModal" type="text/vnd.tiddlywiki">
             <pre>&lt;center style=&quot;font-size:25px;&quot;&gt; Ваш товар доданий! &lt;/center&gt; 
-&lt;hr&gt;
-&lt;div style=&quot;width:100%; text-align:center;&quot;&gt;&lt;div class=&quot;simpleCart_hide simpleCart_closeModal&quot; style=&quot; background-color:#eee;&quot;&gt; Оформити замовлення&lt;/div&gt; &lt;$button class=&quot;tc-btn-invisible simpleCart_closeModal&quot; message=&quot;tm-close-tiddler&quot;&gt;Продовжити покупки&lt;/$button&gt;&lt;/div&gt;</pre>
+            &lt;hr&gt;
+            &lt;div style=&quot;width:100%; text-align:center;&quot;&gt;&lt;div class=&quot;simpleCart_hide simpleCart_closeModal&quot; style=&quot; background-color:#eee;&quot;&gt; Оформити замовлення&lt;/div&gt; &lt;$button class=&quot;tc-btn-invisible simpleCart_closeModal&quot; message=&quot;tm-close-tiddler&quot;&gt;Продовжити покупки&lt;/$button&gt;&lt;/div&gt;</pre>
         </div>
         <div caption="{{$:/_aa/button/KrNavigator}} " created="20151003063130163"
             description="{{$:/_aa/button/KrNavigator/Hint}} " modified="20151003063214972" title="$:/_addCartNotify"
             type="text/vnd.tiddlywiki">
             <pre>Товар доданий!
 
-</pre>
+        </pre>
         </div>
         <div created="20180105113854092" modified="20180105113933286" subtitle="Ошибка" tags=""
             title="$:/_alert/banlist">
             <pre>@@padding:20px;
-Магазин забанен.
-@@</pre>
+        Магазин забанен.
+            @@</pre>
         </div>
         <div created="20171110183101480" modified="20171110183255398" subtitle="Ошибка" tags=""
             title="$:/_alert/minzakaz">
             <pre>@@padding:20px;
-    Мінімальна сума замовлення {{$:/constant/_minzakaz}} {{$:/constant/_valuta}}
-@@</pre>
+            Мінімальна сума замовлення {{$:/constant/_minzakaz}} {{$:/constant/_valuta}}
+            @@</pre>
         </div>
         <div created="20160714175252200" modified="20170116070354538" subtitle="Ошибка" tags=""
             title="$:/_alert/nocity">
             <pre>@@padding:20px;
-    Не вказане місто доставки.
-@@</pre>
+                Не вказане місто доставки.
+            @@</pre>
         </div>
         <div created="20160714180127190" modified="20170116070410826" subtitle="Ошибка" tags=""
             title="$:/_alert/noemail">
             <pre>@@padding:20px;
-    Заповніть, будь ласка, Ваш e-mail ПРАВИЛЬНО або залиште поле порожнім.
-@@</pre>
+            Заповніть, будь ласка, Ваш e-mail ПРАВИЛЬНО або залиште поле порожнім.
+        @@</pre>
         </div>
         <div created="20160714174949690" modified="20170116070431369" subtitle="Ошибка" tags=""
             title="$:/_alert/noitems">
             <pre>@@padding:20px;
-    Замовлення не може бути відправлене. У кошику немає товарів.
-@@</pre>
+            Замовлення не може бути відправлене. У кошику немає товарів.
+        @@</pre>
         </div>
         <div created="20160717124230346" modified="20170116070450105" subtitle="Ошибка" tags=""
             title="$:/_alert/noname">
             <pre>@@padding:20px;
-    Заповніть, будь ласка, Ваше ім'я.
-@@</pre>
+            Заповніть, будь ласка, Ваше ім'я.
+        @@</pre>
         </div>
         <div created="20160714175158763" modified="20170116070522577" subtitle="Ошибка" tags=""
             title="$:/_alert/notelephone">
             <pre>@@padding:20px;
-    Заповніть, будь ласка, Ваш Телефон.
-@@</pre>
+            Заповніть, будь ласка, Ваш Телефон.
+        @@</pre>
         </div>
         <div created="20160714175415193" modified="20171111135245411" subtitle="Замовлення відправлено" tags=""
             title="$:/_alert/ordersent">
             <pre>&lt;div style=&quot;padding:20px;&quot;&gt;
-    Дякуємо за Ваше замовлення! Ми зв'яжемося з Вами найближчим часом.
-    <div><a href="#index">На головну сторінку до магазину</a></div>
+                Дякуємо за Ваше замовлення! Ми зв'яжемося з Вами найближчим часом.
+                <div><a href="#index">На головну сторінку до магазину</a></div>
     
-&lt;/div&gt;</pre>
+        &lt;/div&gt;</pre>
 
         </div>
         <div created="20150924060947457" modified="20190311162927512" tags="$:/tags/TopLeftBar" title="$:/_Cart"
             type="text/vnd.tiddlywiki">
             <pre>&lt;div id=&quot;cart_backdrop&quot; style=&quot;display: none; transition:opacity ease-out; opacity: 0.7; background: #999; position: fixed; width: 100%; height: 200%; top: -400px; left: 0px; z-index:900;&quot;&gt; &lt;/div&gt;
-&lt;div id=&quot;hideCart&quot; class =&quot;korzinka&quot; style=&quot; padding: 0px; margin:0px; height:0px; top:0px;&quot;&gt;
-&lt;div style=&quot;height:15000%; &quot;&gt;
-&lt;div style=&quot;background: #fff; float:left; width:100%; padding: 3%;     -moz-box-shadow: 0 0 55px 5px rgba(0, 0, 0, 0.12);    -webkit-box-shadow: 0 0 55px 5px rgba(0, 0, 0, 0.12);    box-shadow: 0px 0px 55px 5px rgba(0,0,0,0.4);&quot;&gt;
-&lt;a class=&quot;rededit&quot; &gt;
-&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-edit-tiddler&quot; $param=&quot;$:/_Cart&quot;/&gt;
-&lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;{{$:/core/images/edit-button}}&lt;/$list&gt;
-&lt;/$button&gt;
-&lt;/a&gt;
+            &lt;div id=&quot;hideCart&quot; class =&quot;korzinka&quot; style=&quot; padding: 0px; margin:0px; height:0px; top:0px;&quot;&gt;
+            &lt;div style=&quot;height:15000%; &quot;&gt;
+            &lt;div style=&quot;background: #fff; float:left; width:100%; padding: 1%;     -moz-box-shadow: 0 0 55px 5px rgba(0, 0, 0, 0.12);    -webkit-box-shadow: 0 0 55px 5px rgba(0, 0, 0, 0.12);    box-shadow: 0px 0px 55px 5px rgba(0,0,0,0.4);&quot;&gt;
+            &lt;a class=&quot;rededit&quot; &gt;
+            &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
+            &lt;$action-sendmessage $message=&quot;tm-edit-tiddler&quot; $param=&quot;$:/_Cart&quot;/&gt;
+            &lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;{{$:/core/images/edit-button}}&lt;/$list&gt;
+            &lt;/$button&gt;
+            &lt;/a&gt;
 
-    &lt;div class=&quot;tc-titlebar&quot;&gt; 
-&lt;h2 style=&quot;display:inline-block;&quot;&gt;Кошик&lt;/h2&gt; 	 &lt;a class=&quot;simpleCart_hide&quot;  style=&quot;cursor: pointer; float: right; padding-top: 2px;&quot;&gt;{{$:/core/images/close-button}} &lt;/a&gt;	&lt;/div&gt; 
-
-
-  &lt;div class=&quot;simpleCart_items&quot;    &gt;             &lt;/div&gt;    &lt;br&gt;   {{$:/_mybag_total}}   
-
-{{$:/constant/_deliveryFreeFrom}}
-&lt;div id=&quot;free_from_dost&quot;&gt;&lt;/div&gt;
-&lt;div id=&quot;total_check&quot;&gt;&lt;/div&gt;
-
-&lt;div class=&quot;mybag&quot;&gt;
- &lt;div class=&quot;field&quot;&gt; &lt;$edit-text tiddler=&quot;$:/temp/PersonDBeditPerson&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;(обов’язково)*&quot; class=&quot;userFF&quot; /&gt; &lt;a&gt;Ваше Ім’я*&lt;/a&gt;&lt;/div&gt; 
- &lt;div class=&quot;field&quot;&gt; &lt;input  class=&quot;userII&quot;  value=&quot;+3(___)___-____&quot; pattern=&quot;[0-9]*&quot;&gt; &lt;a&gt;Телефон* (цифри)&lt;/a&gt;&lt;/div&gt; 
-  &lt;div class=&quot;field&quot;&gt;&lt;$edit-text tiddler=&quot;$:/temp/PersonDBeditMail&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;(по бажанню)&quot; class=&quot;userOO&quot; /&gt; &lt;a&gt; @e-mail&lt;/a&gt;&lt;/div&gt; 
-  &lt;div class=&quot;field&quot;   style=&quot; width: 100%;    margin-bottom:20px;&quot;&gt;&lt;$edit-text tiddler=&quot;$:/temp/PersonDBeditAdress&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;Адреса доставки&quot; class=&quot;userAA&quot; /&gt;&lt;a&gt;Адреса доставки*&lt;/a&gt;&lt;/div&gt; 
-  &lt;div class=&quot;field&quot;   style=&quot; width: 100%;     margin-bottom:20px;&quot;&gt;&lt;$edit-text tiddler=&quot;$:/temp/PersonDBeditComments&quot; tag=&quot;textarea&quot;  type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;userCC&quot;  /&gt;&lt;a&gt;Комментарі до замовлення&lt;/a&gt;&lt;/div&gt;
+                &lt;div class=&quot;tc-titlebar&quot;&gt; 
+            &lt;h2 style=&quot;display:inline-block;&quot;&gt;Кошик&lt;/h2&gt; 	 &lt;a class=&quot;simpleCart_hide&quot;  style=&quot;cursor: pointer; float: right; padding-top: 2px;&quot;&gt;{{$:/core/images/close-button}} &lt;/a&gt;	&lt;/div&gt; 
 
 
+            &lt;div class=&quot;simpleCart_items&quot;    &gt;             &lt;/div&gt;    &lt;br&gt;   {{$:/_mybag_total}}   
 
+            {{$:/constant/_deliveryFreeFrom}}
+            &lt;div id=&quot;free_from_dost&quot;&gt;&lt;/div&gt;
+            &lt;div id=&quot;total_check&quot;&gt;&lt;/div&gt;
 
-
-<!-- &lt;div class=&quot;samovivoz&quot; &gt;&lt;$checkbox  tiddler=&quot;$:/temp/PersonDBeditAdress&quot; field=&quot;text&quot; checked=&quot;Cамовивіз&quot; unchecked=&quot;&quot;  &gt;  &amp;nbsp;-&amp;nbsp;самовивіз &lt;/$checkbox&gt;   &lt;/div&gt;  -->
+            &lt;div class=&quot;mybag&quot;&gt;
+            &lt;div class=&quot;field&quot;&gt; &lt;$edit-text tiddler=&quot;$:/temp/PersonDBeditPerson&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;(обов’язково)*&quot; class=&quot;userFF&quot; /&gt; &lt;a&gt;Ваше Ім’я*&lt;/a&gt;&lt;/div&gt; 
+            &lt;div class=&quot;field&quot;&gt; &lt;input  class=&quot;userII&quot;  value=&quot;+3(___)___-____&quot; pattern=&quot;[0-9]*&quot;&gt; &lt;a&gt;Телефон* (цифри)&lt;/a&gt;&lt;/div&gt; 
+            &lt;div class=&quot;field&quot;&gt;&lt;$edit-text tiddler=&quot;$:/temp/PersonDBeditMail&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;(по бажанню)&quot; class=&quot;userOO&quot; /&gt; &lt;a&gt; @e-mail&lt;/a&gt;&lt;/div&gt; 
+            &lt;div class=&quot;field&quot;   style=&quot; width: 100%;    margin-bottom:20px;&quot;&gt;&lt;$edit-text tiddler=&quot;$:/temp/PersonDBeditAdress&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;Адреса доставки&quot; class=&quot;userAA&quot; /&gt;&lt;a&gt;Адреса доставки*&lt;/a&gt;&lt;/div&gt; 
+            &lt;div class=&quot;field&quot;   style=&quot; width: 100%;     margin-bottom:20px;&quot;&gt;&lt;$edit-text tiddler=&quot;$:/temp/PersonDBeditComments&quot; tag=&quot;textarea&quot;  type=&quot;text&quot; placeholder=&quot;&quot; class=&quot;userCC&quot;  /&gt;&lt;a&gt;Комментарі до замовлення&lt;/a&gt;&lt;/div&gt;
 
 
 
 
+                &lt;div class=&quot;field&quot; style=&quot; width: 100%;    margin-top: 23px;    margin-bottom: 20px;&quot;&gt;  
+                &lt;$select tiddler='$:/state/_tip_dostavki' default='dost' class=&quot;selectDost&quot;&gt;
+                &lt;$list filter=&quot;[tag[$:/dost]!tag[$:/hide]minlength[1]]&quot;&gt;&lt;option value={{!!title}}&gt;{{!!caption}} {{!!price}} {{$:/constant/_valuta}}&lt;/option&gt;  &lt;/$list&gt;
+                &lt;/$select&gt;
 
- &lt;div class=&quot;field&quot; style=&quot; width: 100%;    margin-top: 23px;    margin-bottom: 20px;&quot;&gt;  
-&lt;$select tiddler='$:/state/_tip_dostavki' default='dost' class=&quot;selectDost&quot;&gt;
- &lt;$list filter=&quot;[tag[$:/dost]!tag[$:/hide]minlength[1]]&quot;&gt;&lt;option value={{!!title}}&gt;{{!!caption}} {{!!price}} {{$:/constant/_valuta}}&lt;/option&gt;  &lt;/$list&gt;
-&lt;/$select&gt;
-
-&lt;a&gt;Виберіть варіант доставки&lt;/a&gt;
-
-
-&lt;/div&gt; 
+                &lt;a&gt;Виберіть варіант доставки&lt;/a&gt;
 
 
- &lt;$edit-text tiddler=&quot;$:/state/_tip_dostavki&quot; tag=&quot;input&quot;  type=&quot;text&quot; class=&quot;dostav&quot; /&gt; 
+                &lt;/div&gt; 
+
+
+                &lt;$edit-text tiddler=&quot;$:/state/_tip_dostavki&quot; tag=&quot;input&quot;  type=&quot;text&quot; class=&quot;dostav&quot; /&gt; 
 
 
  
@@ -426,130 +388,105 @@ $l$$(title)$]]
 
 
 
- &lt;div class=&quot;field&quot; style=&quot; width: 100%;    margin-top: 12px;    margin-bottom: 20px;&quot;&gt;  
-&lt;$select tiddler='$:/state/_tip_oplati2' default='oplnk' class=&quot;oplataSelect&quot;&gt;
-{{$:/_Moneta.ru!!oplbeznal}}
-{{$:/_Moneta.ru!!oplnk}}
-{{$:/_Moneta.ru!!moneta32863}}
-{{$:/_Moneta.ru!!moneta1020}}
-{{$:/_Moneta.ru!!moneta1017}}
-{{$:/_Moneta.ru!!moneta31196}}
-{{$:/_Moneta.ru!!moneta32767}}
-{{$:/_Moneta.ru!!moneta36992}}
-{{$:/_Moneta.ru!!all}}
-{{$:/_Yandex_oplata!!ac}}
-{{$:/_Yandex_oplata!!pc}}
-{{$:/_Yandex_oplata!!mc}}
-{{Paypal!!select}}
-&lt;/$select&gt;
+                &lt;div class=&quot;field&quot; style=&quot; width: 100%;    margin-top: 12px;    margin-bottom: 20px;&quot;&gt;  
+                &lt;$select tiddler='$:/state/_tip_oplati2' default='oplnk' class=&quot;oplataSelect&quot;&gt;
+                {{$:/_Moneta.ru!!oplbeznal}}
+                {{$:/_Moneta.ru!!oplnk}}
+                {{$:/_Moneta.ru!!moneta32863}}
+                {{$:/_Moneta.ru!!moneta1020}}
+                {{$:/_Moneta.ru!!moneta1017}}
+                {{$:/_Moneta.ru!!moneta31196}}
+                {{$:/_Moneta.ru!!moneta32767}}
+                {{$:/_Moneta.ru!!moneta36992}}
+                {{$:/_Moneta.ru!!all}}
+                {{$:/_Yandex_oplata!!ac}}
+                {{$:/_Yandex_oplata!!pc}}
+                {{$:/_Yandex_oplata!!mc}}
+                {{Paypal!!select}}
+                &lt;/$select&gt;
 
- &lt;$edit-text tiddler=&quot;$:/state/_tip_oplati2&quot; tag=&quot;input&quot;  type=&quot;text&quot; class=&quot;oplatavar2&quot; /&gt; 
-&lt;a&gt;Виберіть варіант оплати&lt;/a&gt;&lt;/div&gt; 
-
-
+                &lt;$edit-text tiddler=&quot;$:/state/_tip_oplati2&quot; tag=&quot;input&quot;  type=&quot;text&quot; class=&quot;oplatavar2&quot; /&gt; 
+                &lt;a&gt;Виберіть варіант оплати&lt;/a&gt;&lt;/div&gt; 
 
 
+                &lt;div class=&quot;field&quot; style=&quot;width: 100%;    margin-top: 12px;    margin-bottom: 20px; display:none;&quot;&gt;  
+                &lt;$select tiddler='$:/state/_tip_montaj' default='NoMon' class=&quot;oplataSelect&quot;&gt;
+                &lt;option value='NoMon'&gt;Стандартная упаковка &lt;$view tiddler=&quot;NoMon&quot; field=&quot;stoimost&quot;/&gt; {{$:/constant/_valuta}}&lt;/option&gt;
+                &lt;option value='YesMon'&gt;Премиум упаковка &lt;$view tiddler=&quot;YesMon&quot; field=&quot;stoimost&quot;/&gt; {{$:/constant/_valuta}}  &lt;/option&gt;
+
+                &lt;/$select&gt;
+                &lt;a&gt;Фирменная упаковка&lt;/a&gt;&lt;/div&gt; 
 
 
+                &lt;$edit-text tiddler='$:/state/_tip_montaj'  tag=&quot;input&quot;  type=&quot;text&quot; class=&quot;montajvar&quot; /&gt; 
 
 
+                &lt;/div&gt; 
 
 
+                    &lt;div style=&quot;float: right;   display: block;   margin-top: 22px;   width: 100%;&quot;&gt;  
+                &lt;a class=&quot;simpleCart_checkout&quot; &gt;Відправити&amp;nbsp;замовлення &lt;/a&gt;  
+
+                &lt;a class=&quot;simpleCart_empty&quot;&gt;Очистити кошик &lt;/a&gt;    
+
+                &lt;a class=&quot;simpleCart_hide&quot;  style=&quot; cursor: pointer;    float: right;     width: 100%;    margin-right: 11px;    text-decoration: underline;    font-size: 1.2em;   text-align: right;margin-top: 14px; &quot;&gt;Повернутися в магазин&lt;/a&gt;	
+                &lt;/div&gt;
 
 
+                &lt;div style=&quot;width:100%; float:left; padding-top:40px;&quot;&gt;
+                Натискаючи на кнопку «Відправити замовлення», я даю згоду на обробку персональних даних.
 
 
+                &lt;$button class=&quot;personal tc-btn-invisible&quot; style=&quot;float:right;&quot; set=&quot;$:/state/SampleReveal1&quot; setTo=&quot;show&quot;&gt;&lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;{{$:/core/images/help}}&lt;/$list&gt; Детальніше &lt;/$button&gt;
 
 
+                &lt;$reveal type=&quot;match&quot; state=&quot;$:/state/SampleReveal1&quot; text=&quot;show&quot;&gt;
+
+                &lt;$button class=&quot;tc-btn-invisible&quot; style=&quot;float:right;&quot;   set=&quot;$:/state/SampleReveal1&quot; setTo=&quot;hide&quot;&gt;Закрити {{$:/core/images/close-button}}&lt;/$button&gt;
 
 
+                {{personal_data}}
 
 
- &lt;div class=&quot;field&quot; style=&quot;width: 100%;    margin-top: 12px;    margin-bottom: 20px; display:none;&quot;&gt;  
-&lt;$select tiddler='$:/state/_tip_montaj' default='NoMon' class=&quot;oplataSelect&quot;&gt;
-&lt;option value='NoMon'&gt;Стандартная упаковка &lt;$view tiddler=&quot;NoMon&quot; field=&quot;stoimost&quot;/&gt; {{$:/constant/_valuta}}&lt;/option&gt;
-&lt;option value='YesMon'&gt;Премиум упаковка &lt;$view tiddler=&quot;YesMon&quot; field=&quot;stoimost&quot;/&gt; {{$:/constant/_valuta}}  &lt;/option&gt;
+                &lt;$button class=&quot;tc-btn-invisible&quot; style=&quot;float:right;&quot;   set=&quot;$:/state/SampleReveal1&quot; setTo=&quot;hide&quot;&gt;Закрити {{$:/core/images/close-button}}&lt;/$button&gt;
 
-&lt;/$select&gt;
-&lt;a&gt;Фирменная упаковка&lt;/a&gt;&lt;/div&gt; 
+                &lt;/$reveal&gt;
+                &lt;/div&gt; 
 
 
- &lt;$edit-text tiddler='$:/state/_tip_montaj'  tag=&quot;input&quot;  type=&quot;text&quot; class=&quot;montajvar&quot; /&gt; 
-
-
-
-
-
-
-&lt;/div&gt; 
-
-
-    &lt;div style=&quot;float: right;   display: block;   margin-top: 22px;   width: 100%;&quot;&gt;  
-&lt;a class=&quot;simpleCart_checkout&quot; &gt;Відправити&amp;nbsp;замовлення &lt;/a&gt;  
-
-&lt;a class=&quot;simpleCart_empty&quot;&gt;Очистити кошик &lt;/a&gt;    
-
- &lt;a class=&quot;simpleCart_hide&quot;  style=&quot; cursor: pointer;    float: right;     width: 100%;    margin-right: 11px;    text-decoration: underline;    font-size: 1.2em;   text-align: right;margin-top: 14px; &quot;&gt;Повернутися в магазин&lt;/a&gt;	
-&lt;/div&gt;
-
-
-&lt;div style=&quot;width:100%; float:left; padding-top:40px;&quot;&gt;
-Натискаючи на кнопку «Відправити замовлення», я даю згоду на обробку персональних даних.
-
-
-&lt;$button class=&quot;personal tc-btn-invisible&quot; style=&quot;float:right;&quot; set=&quot;$:/state/SampleReveal1&quot; setTo=&quot;show&quot;&gt;&lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;{{$:/core/images/help}}&lt;/$list&gt; Детальніше &lt;/$button&gt;
-
-
-&lt;$reveal type=&quot;match&quot; state=&quot;$:/state/SampleReveal1&quot; text=&quot;show&quot;&gt;
-
-&lt;$button class=&quot;tc-btn-invisible&quot; style=&quot;float:right;&quot;   set=&quot;$:/state/SampleReveal1&quot; setTo=&quot;hide&quot;&gt;Закрити {{$:/core/images/close-button}}&lt;/$button&gt;
-
-
-{{personal_data}}
-
-
-&lt;$button class=&quot;tc-btn-invisible&quot; style=&quot;float:right;&quot;   set=&quot;$:/state/SampleReveal1&quot; setTo=&quot;hide&quot;&gt;Закрити {{$:/core/images/close-button}}&lt;/$button&gt;
-
-&lt;/$reveal&gt;
-&lt;/div&gt; 
-
-
-
-
-
-&lt;/div&gt; &lt;/div&gt; 
-&lt;/div&gt; 
+                &lt;/div&gt; &lt;/div&gt; 
+                &lt;/div&gt; 
 
     
 
-&lt;div style=&quot;display:none;&quot;&gt;{{$:/constant/_mail_form}} &lt;/div&gt;
-&lt;div style=&quot;display:none;&quot;&gt;{{yandex_form}} &lt;/div&gt;
-</pre>
-        </div>
-        <div created="20160312133319805" modified="20160312134728168" tags="" title="$:/_cartSelect">
-            <pre>&lt;div id=&quot;cart-select&quot; class=&quot;tc-modal-backdrop&quot; style=&quot;display:none;&quot;&gt;&lt;div class=&quot;tc-modal&quot;&gt;
-&lt;div class=&quot;simpleCart_hide&quot; style=&quot; margin-left: 3px; margin-top: 2px;  cursor: pointer;&quot;&gt; Оформити замовлення &lt;/div&gt;
-&lt;/div&gt;&lt;/div&gt;</pre>
-        </div>
-        <div caption="місто" created="20200130171341317" i="13" modified="20200130171341317" title="$:/_citySelect">
+            &lt;div style=&quot;display:none;&quot;&gt;{{$:/constant/_mail_form}} &lt;/div&gt;
+            &lt;div style=&quot;display:none;&quot;&gt;{{yandex_form}} &lt;/div&gt;
+            </pre>
+                    </div>
+                    <div created="20160312133319805" modified="20160312134728168" tags="" title="$:/_cartSelect">
+                        <pre>&lt;div id=&quot;cart-select&quot; class=&quot;tc-modal-backdrop&quot; style=&quot;display:none;&quot;&gt;&lt;div class=&quot;tc-modal&quot;&gt;
+            &lt;div class=&quot;simpleCart_hide&quot; style=&quot; margin-left: 3px; margin-top: 2px;  cursor: pointer;&quot;&gt; Оформити замовлення &lt;/div&gt;
+            &lt;/div&gt;&lt;/div&gt;</pre>
+                    </div>
+                    <div caption="місто" created="20200130171341317" i="13" modified="20200130171341317" title="$:/_citySelect">
             <pre>с.Іза
-</pre>
-        </div>
-        <div created="20171201083425685" import-field-column="id" import-field-name="title" import-field-source="column"
-            import-field-type="string" import-spec-role="field" modified="20171201083445853"
-            title="$:/_ExcelImporter/ImportSpecifiers/Field">
-            <pre></pre>
-        </div>
-        <div created="20171201083449468" import-field-column="text" import-field-name="text"
-            import-field-source="column" import-field-type="string" import-spec-role="field"
-            modified="20171201083505038" title="$:/_ExcelImporter/ImportSpecifiers/Field 1">
-            <pre></pre>
-        </div>
-        <div created="20171201083511350" import-field-column="line1" import-field-name="line1"
-            import-field-source="column" import-field-type="string" import-spec-role="field"
-            modified="20171201083530694" title="$:/_ExcelImporter/ImportSpecifiers/Field 2">
-            <pre></pre>
-        </div>
+            </pre>
+                    </div>
+                    <div created="20171201083425685" import-field-column="id" import-field-name="title" import-field-source="column"
+                        import-field-type="string" import-spec-role="field" modified="20171201083445853"
+                    title="$:/_ExcelImporter/ImportSpecifiers/Field">
+                    <pre></pre>
+                </div>
+                <div created="20171201083449468" import-field-column="text" import-field-name="text"
+                    import-field-source="column" import-field-type="string" import-spec-role="field"
+                    modified="20171201083505038" title="$:/_ExcelImporter/ImportSpecifiers/Field 1">
+                    <pre></pre>
+                </div>
+                <div created="20171201083511350" import-field-column="line1" import-field-name="line1"
+                    import-field-source="column" import-field-type="string" import-spec-role="field"
+                    modified="20171201083530694" title="$:/_ExcelImporter/ImportSpecifiers/Field 2">
+                    <pre></pre>
+                </div>
         <div created="20171201083534299" import-field-column="line2" import-field-name="line2"
             import-field-source="column" import-field-type="string" import-spec-role="field"
             modified="20171201083603682" title="$:/_ExcelImporter/ImportSpecifiers/Field 3">
@@ -562,500 +499,497 @@ $l$$(title)$]]
         </div>
         <div created="20160619142911727" modified="20180109072758242" tags="$:/tags/PageTemplate" title="$:/_footer">
             <pre>&lt;div class=&quot;col-footer&quot; &gt;
-&lt;a class=&quot;rededit&quot;  style=&quot;right:1em;&quot;&gt;
-&lt;$button class=&quot;tc-btn-invisible&quot;&gt;
-&lt;$action-sendmessage $message=&quot;tm-edit-tiddler&quot; $param=&quot;$:/_footer&quot;/&gt;
-&lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;
-{{$:/core/images/edit-button}}
-&lt;/$list&gt;
-&lt;/$button&gt;
-&lt;/a&gt;
-<!-- ++++++++ -->
+        &lt;a class=&quot;rededit&quot;  style=&quot;right:1em;&quot;&gt;
+        &lt;$button class=&quot;tc-btn-invisible&quot;&gt;
+        &lt;$action-sendmessage $message=&quot;tm-edit-tiddler&quot; $param=&quot;$:/_footer&quot;/&gt;
+        &lt;$list filter=&quot;[&lt;tv-config-toolbar-icons&gt;prefix[yes]]&quot;&gt;
+        {{$:/core/images/edit-button}}
+        &lt;/$list&gt;
+        &lt;/$button&gt;
+        &lt;/a&gt;
+        <!-- ++++++++ -->
 
-&lt;a&gt;
-© 2020 &lt;$link to=&quot;copyright&quot;&gt; boServis&lt;/$link&gt;
-&lt;/a&gt;
+        &lt;a&gt;
+        © 2020 &lt;$link to=&quot;copyright&quot;&gt; boServis&lt;/$link&gt;
+        &lt;/a&gt;
 
-</div>
-<div created="20141130175523951" modified="20170115141619336" title="$:/_heeg.js" type="application/javascript">
-<pre>var a = document.querySelector('#aside1'), b = null;  
-function Ascroll() {
-  if (b == null) {  
-    var Sa = getComputedStyle(a, ''), s = '';
-    for (var i = 0; i &lt; Sa.length; i++) {  
-      if (Sa[i].indexOf('box-sizing') == 0 || Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
-        s += Sa[i] + ': ' +Sa.getPropertyValue(Sa[i]) + '; '
-      }
-    }
-     b = document.querySelector('#stick');
-    a.style.height = b.getBoundingClientRect().height + 'px';  
-    a.style.padding = '0';
-    a.style.border = '0';  
+        </div>
+        <div created="20141130175523951" modified="20170115141619336" title="$:/_heeg.js" type="application/javascript">
+        <pre>var a = document.querySelector('#aside1'), b = null;  
+        function Ascroll() {
+        if (b == null) {  
+            var Sa = getComputedStyle(a, ''), s = '';
+            for (var i = 0; i &lt; Sa.length; i++) {  
+            if (Sa[i].indexOf('box-sizing') == 0 || Sa[i].indexOf('overflow') == 0 || Sa[i].indexOf('padding') == 0 || Sa[i].indexOf('border') == 0 || Sa[i].indexOf('outline') == 0 || Sa[i].indexOf('box-shadow') == 0 || Sa[i].indexOf('background') == 0) {
+                s += Sa[i] + ': ' +Sa.getPropertyValue(Sa[i]) + '; '
+            }
+            }
+            b = document.querySelector('#stick');
+            a.style.height = b.getBoundingClientRect().height + 'px';  
+            a.style.padding = '0';
+            a.style.border = '0';  
  
 
- }
-  if (a.getBoundingClientRect().top &lt;= 0) { 
-    b.className = 'sticky';
-  } else {
-    b.className = 'sticky2';
-  }
-}
+            }
+            if (a.getBoundingClientRect().top &lt;= 0) { 
+                b.className = 'sticky';
+            } else {
+                b.className = 'sticky2';
+            }
+            }
 
 
 
-if (document.getElementById('aside1')){
-(function(){  
+            if (document.getElementById('aside1')){
+            (function(){  
 
-window.addEventListener('scroll', Ascroll, false);
-document.body.addEventListener('scroll', Ascroll, false); 
-})()
+            window.addEventListener('scroll', Ascroll, false);
+            document.body.addEventListener('scroll', Ascroll, false); 
+            })()
 
-}
+            }
 
-var ttt=&quot;&quot;+decodeURIComponent(document.location);
-var ssilko= &quot;heeg.html#&quot; + ttt.split('.html')[0].split('/')[ttt.match(/\//g).length];
-
-
-
-
-
-
-var object = document.createElement('div'); 
- object.innerHTML ='&lt;div class=&quot;modal-wrapper&quot;  &gt;&lt;/div&gt; &lt;div class=&quot;modal&quot; style=&quot;z-index: 99990; min-width:200px;&quot;&gt; &lt;img class=&quot;myimages&quot; style=&quot;width:100%; max-width: 173px;&quot; src=&quot;images/products/418.jpg&quot; alt=&quot;інтернет магазин&quot; /&gt; &lt;a style=&quot;margin:15px; display:block;   &quot;&gt;  Ласкаво просимо в наш інтернет магазин.  &lt;/a&gt; '+  '&lt;div class=&quot; modal-footer&quot;&gt; &lt;a class=&quot;simpleCart_checkout&quot;  style=&quot;font-size:16px;&quot; href=&quot;'+ ssilko +'&quot;&gt;перейти в магазин&lt;/a&gt;'   +'&lt;/div&gt; &lt;/div&gt; '; 
- 
- 
- 
-if (document.getElementById('nomodal')){} else{
-
- var body = document.getElementsByTagName('body')[0]; 
- body.insertBefore(object, body.firstChild); 
-}
+            var ttt=&quot;&quot;+decodeURIComponent(document.location);
+            var ssilko= &quot;heeg.html#&quot; + ttt.split('.html')[0].split('/')[ttt.match(/\//g).length];
 
 
 
 
-</pre>
+
+
+            var object = document.createElement('div'); 
+            object.innerHTML ='&lt;div class=&quot;modal-wrapper&quot;  &gt;&lt;/div&gt; &lt;div class=&quot;modal&quot; style=&quot;z-index: 99990; min-width:200px;&quot;&gt; &lt;img class=&quot;myimages&quot; style=&quot;width:100%; max-width: 173px;&quot; src=&quot;images/products/418.jpg&quot; alt=&quot;інтернет магазин&quot; /&gt; &lt;a style=&quot;margin:15px; display:block;   &quot;&gt;  Ласкаво просимо в наш інтернет магазин.  &lt;/a&gt; '+  '&lt;div class=&quot; modal-footer&quot;&gt; &lt;a class=&quot;simpleCart_checkout&quot;  style=&quot;font-size:16px;&quot; href=&quot;'+ ssilko +'&quot;&gt;перейти в магазин&lt;/a&gt;'   +'&lt;/div&gt; &lt;/div&gt; '; 
+            
+            
+            
+            if (document.getElementById('nomodal')){} else{
+
+            var body = document.getElementsByTagName('body')[0]; 
+            body.insertBefore(object, body.firstChild); 
+            }
+
+        </pre>
         </div>
         <div created="20160212114444417" modified="20160212114456246" tags="" title="$:/_index">
             <pre>index</pre>
         </div>
         <div created="20170101140844742" modified="20180519154830367" tags="" title="$:/_itemSlider">
             <pre>&lt;$list filter=&quot;[&lt;currentTiddler&gt;addsuffix[_]]&quot;&gt;  
-&lt;div class=&quot;slideshow-wrap&quot;&gt; 
- &lt;$set name=&quot;currentTit&quot; value=&lt;&lt;qualify&gt;&gt; &gt; 
-&lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;nth[1]]&quot;&gt;
-&lt;input type=&quot;radio&quot; id={{!!title}} name=&lt;&lt;currentTit&gt;&gt; checked=&quot;checked&quot;/&gt;
-&lt;/$list&gt; 
+        &lt;div class=&quot;slideshow-wrap&quot;&gt; 
+        &lt;$set name=&quot;currentTit&quot; value=&lt;&lt;qualify&gt;&gt; &gt; 
+        &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;nth[1]]&quot;&gt;
+        &lt;input type=&quot;radio&quot; id={{!!title}} name=&lt;&lt;currentTit&gt;&gt; checked=&quot;checked&quot;/&gt;
+        &lt;/$list&gt; 
 
-&lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;rest[1]]&quot;&gt;
-&lt;input type=&quot;radio&quot; id={{!!title}} name=&lt;&lt;currentTit&gt;&gt; /&gt;
-&lt;/$list&gt;
-  &lt;/$set&gt;
-&lt;div class=&quot;tochki&quot;&gt;
-&lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;nth[2]]&quot; variable=test&gt;
- &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt; 
- &lt;label for={{!!title}} &gt; 
- &lt;li&gt;      &lt;img  src={{!!_canonical_uri}}  /&gt;  &lt;/li&gt;
- &lt;/label&gt;
- &lt;/$list&gt;
- &lt;/$list&gt;  
-&lt;/div&gt;
- &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt;&lt;label for={{!!title}} class=&quot;arrows&quot; &gt;&lt;/label&gt;&lt;/$list&gt; 
-&lt;div id=&quot;slideshow-inner&quot;&gt;
-      &lt;ul&gt;
- &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt; 
-&lt;li&gt;      
-&lt;img  src={{!!_canonical_uri}}  /&gt; 
-&lt;/li&gt; 
-&lt;/$list&gt; 
-      &lt;/ul&gt;
-   &lt;/div&gt;
-&lt;/div&gt;
-&lt;/$list&gt; </pre>
+        &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;rest[1]]&quot;&gt;
+        &lt;input type=&quot;radio&quot; id={{!!title}} name=&lt;&lt;currentTit&gt;&gt; /&gt;
+        &lt;/$list&gt;
+        &lt;/$set&gt;
+        &lt;div class=&quot;tochki&quot;&gt;
+        &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;nth[2]]&quot; variable=test&gt;
+        &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt; 
+        &lt;label for={{!!title}} &gt; 
+        &lt;li&gt;      &lt;img  src={{!!_canonical_uri}}  /&gt;  &lt;/li&gt;
+        &lt;/label&gt;
+        &lt;/$list&gt;
+        &lt;/$list&gt;  
+        &lt;/div&gt;
+        &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt;&lt;label for={{!!title}} class=&quot;arrows&quot; &gt;&lt;/label&gt;&lt;/$list&gt; 
+        &lt;div id=&quot;slideshow-inner&quot;&gt;
+            &lt;ul&gt;
+        &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt; 
+        &lt;li&gt;      
+        &lt;img  src={{!!_canonical_uri}}  /&gt; 
+        &lt;/li&gt; 
+        &lt;/$list&gt; 
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;/$list&gt; </pre>
         </div>
         <div created="20170101170809244" modified="20180510184101876" tags="" title="$:/_itemSliderModal">
             <pre>\define sModa()   
-$(name)$_modal
-\end
-&lt;div class=&quot;slideshow-wrap&quot;&gt;
- &lt;$set name=&quot;currentTit&quot; value=&lt;&lt;qualify&gt;&gt; &gt; 
-&lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;nth[1]]&quot;&gt;
-&lt;$set name=&quot;name&quot;  value={{!!title}} &gt;
-&lt;input type=&quot;radio&quot; id=&lt;&lt;sModa&gt;&gt; name=&lt;&lt;currentTit&gt;&gt; checked=&quot;checked&quot;/&gt;
-&lt;/$set&gt;
-&lt;/$list&gt;  
-&lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;rest[1]]&quot;&gt;
-&lt;$set name=&quot;name&quot;  value={{!!title}} &gt;
-&lt;input type=&quot;radio&quot; id=&lt;&lt;sModa&gt;&gt; name=&lt;&lt;currentTit&gt;&gt; /&gt;
-&lt;/$set&gt;
-&lt;/$list&gt;
-  &lt;/$set&gt;
-&lt;div class=&quot;tochki&quot;&gt;
-&lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;nth[2]]&quot; variable=test&gt;
- &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt; 
-&lt;$set name=&quot;name&quot;  value={{!!title}} &gt; 
-&lt;label for=&lt;&lt;sModa&gt;&gt; &gt; 
- &lt;li&gt;      &lt;img  src={{!!_canonical_uri}}  alt={{!!alt}}/&gt;  &lt;/li&gt;
- &lt;/label&gt;
-  &lt;/$set&gt;
- &lt;/$list&gt;
- &lt;/$list&gt;  
-&lt;/div&gt;
- &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt;
-&lt;$set name=&quot;name&quot;  value={{!!title}} &gt;
-&lt;label for=&lt;&lt;sModa&gt;&gt; class=&quot;arrows&quot; &gt;&lt;/label&gt;
-  &lt;/$set&gt;
-&lt;/$list&gt; 
-&lt;div id=&quot;slideshow-inner&quot;&gt;
-      &lt;ul&gt;
- &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt; 
-&lt;li&gt;      
-&lt;img  src={{!!_canonical_uri}}  alt={{!!alt}}/&gt; 
-&lt;/li&gt; 
-&lt;/$list&gt; 
-      &lt;/ul&gt;
-   &lt;/div&gt;
-&lt;/div&gt;</pre>
-        </div>
-        <div created="20180107100424537" modified="20180107101520441" tags="" title="$:/_itemTopSlider">
-            <pre>\define imgBack() 
-background-image: url($(name)$);
-\end
+        $(name)$_modal
+        \end
+        &lt;div class=&quot;slideshow-wrap&quot;&gt;
+        &lt;$set name=&quot;currentTit&quot; value=&lt;&lt;qualify&gt;&gt; &gt; 
+        &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;nth[1]]&quot;&gt;
+        &lt;$set name=&quot;name&quot;  value={{!!title}} &gt;
+        &lt;input type=&quot;radio&quot; id=&lt;&lt;sModa&gt;&gt; name=&lt;&lt;currentTit&gt;&gt; checked=&quot;checked&quot;/&gt;
+        &lt;/$set&gt;
+        &lt;/$list&gt;  
+        &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;rest[1]]&quot;&gt;
+        &lt;$set name=&quot;name&quot;  value={{!!title}} &gt;
+        &lt;input type=&quot;radio&quot; id=&lt;&lt;sModa&gt;&gt; name=&lt;&lt;currentTit&gt;&gt; /&gt;
+        &lt;/$set&gt;
+        &lt;/$list&gt;
+            &lt;/$set&gt;
+            &lt;div class=&quot;tochki&quot;&gt;
+            &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;nth[2]]&quot; variable=test&gt;
+            &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt; 
+            &lt;$set name=&quot;name&quot;  value={{!!title}} &gt; 
+            &lt;label for=&lt;&lt;sModa&gt;&gt; &gt; 
+            &lt;li&gt;      &lt;img  src={{!!_canonical_uri}}  alt={{!!alt}}/&gt;  &lt;/li&gt;
+            &lt;/label&gt;
+            &lt;/$set&gt;
+            &lt;/$list&gt;
+            &lt;/$list&gt;  
+            &lt;/div&gt;
+            &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt;
+            &lt;$set name=&quot;name&quot;  value={{!!title}} &gt;
+            &lt;label for=&lt;&lt;sModa&gt;&gt; class=&quot;arrows&quot; &gt;&lt;/label&gt;
+            &lt;/$set&gt;
+            &lt;/$list&gt; 
+            &lt;div id=&quot;slideshow-inner&quot;&gt;
+                &lt;ul&gt;
+            &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix&lt;currentTiddler&gt;]&quot;&gt; 
+            &lt;li&gt;      
+            &lt;img  src={{!!_canonical_uri}}  alt={{!!alt}}/&gt; 
+            &lt;/li&gt; 
+            &lt;/$list&gt; 
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;/div&gt;</pre>
+                </div>
+                <div created="20180107100424537" modified="20180107101520441" tags="" title="$:/_itemTopSlider">
+                    <pre>\define imgBack() 
+        background-image: url($(name)$);
+        \end
 
-&lt;ul class=&quot;cb-slideshow&quot; style=&quot;height: 400px; width: 100%;&quot;&gt;
-&lt;$list filter=&quot;[is[current]tagging[]type[image/jpeg]]&quot;&gt;
-&lt;$set name=&quot;name&quot;  value={{!!_canonical_uri}} &gt; 
- &lt;li&gt;&lt;span style=&lt;&lt;imgBack&gt;&gt;&gt;{{!!title}}&lt;/span&gt;&lt;div&gt;&lt;h3&gt;{{!!caption}}&lt;/h3&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;/$set&gt;
-&lt;/$list&gt; 
-&lt;/ul&gt;
-</pre>
-        </div>
-        <div created="20141129155244840" modified="20150115123405753" title="$:/_koefisient_sen"
-            type="text/vnd.tiddlywiki">
-            <pre>1</pre>
-        </div>
-        <div created="20141021063424568" modified="20170429193151877" module-type="macro" tags="$:/tags/Macro"
-            title="$:/_loctid.js" type="application/javascript">
-            <pre>/*\
-title: $:/_loctid.js
-type: application/javascript
-module-type: macro
+        &lt;ul class=&quot;cb-slideshow&quot; style=&quot;height: 400px; width: 100%;&quot;&gt;
+        &lt;$list filter=&quot;[is[current]tagging[]type[image/jpeg]]&quot;&gt;
+        &lt;$set name=&quot;name&quot;  value={{!!_canonical_uri}} &gt; 
+        &lt;li&gt;&lt;span style=&lt;&lt;imgBack&gt;&gt;&gt;{{!!title}}&lt;/span&gt;&lt;div&gt;&lt;h3&gt;{{!!caption}}&lt;/h3&gt;&lt;/div&gt;&lt;/li&gt;
+        &lt;/$set&gt;
+        &lt;/$list&gt; 
+        &lt;/ul&gt;
+        </pre>
+                </div>
+                <div created="20141129155244840" modified="20150115123405753" title="$:/_koefisient_sen"
+                    type="text/vnd.tiddlywiki">
+                    <pre>1</pre>
+                </div>
+                <div created="20141021063424568" modified="20170429193151877" module-type="macro" tags="$:/tags/Macro"
+                    title="$:/_loctid.js" type="application/javascript">
+                    <pre>/*\
+        title: $:/_loctid.js
+        type: application/javascript
+        module-type: macro
 
-Macro to return a formatted version of the current time
+            Macro to return a formatted version of the current time
 
-\*/
-(function(){
+            \*/
+            (function(){
 
-/*jslint node: true, browser: true */
-/*global $tw: false */
-
-
-/*
-Information about this macro
-*/
+            /*jslint node: true, browser: true */
+            /*global $tw: false */
 
 
-
-exports.name = &quot;loctid&quot;;
-
-exports.params = [
-	{name: &quot;format&quot;}
-];
-
-/*
-Run the macro
-*/
-
-
-var itogoQP=0;
-var itogoVes=0;
-var itogoVm3=0;
-
-
-userName = &quot;&quot;+ decodeURI (document.location);
-Strtov=userName;
-var Qtov= ((userName.split(';').length-1)-1)/3;
-n1 = userName.indexOf(&quot;$&quot;)+1;
-
-userName= userName.substring(n1);
-n1= userName.indexOf(&quot;$&quot;)+1;
-userF1=userName.substr(0,n1-1);
-
-userName= userName.substring(n1);
-n1= userName.indexOf(&quot;$&quot;)+1;
-userI1=userName.substr(0,n1-1);
-
-
-userName= userName.substring(n1);
-n1= userName.indexOf(&quot;$&quot;)+1;
-userO1=userName.substr(0,n1-1);
-userO1 = userO1.replace(&quot;%40&quot; ,&quot;@&quot;); 
-
-
-userZakaz= userName.substring(n1);
-userZakaz=userZakaz.replace(&quot;#!heeg&quot;,&quot; &quot;);
-
-var tovLin=&quot;&quot;;
-var n=0;
-var  itogoQP=0;
-
-strnTopL=&quot;&lt;table border=\&quot;1\&quot; style='background-color:#fff;'&gt;&lt;caption&gt;Таблиця замовлення товарів&lt;/caption&gt;&lt;tr&gt;&lt;th&gt;№&lt;/th&gt;&lt;th&gt;Артикул&lt;/th&gt;&lt;th&gt;Назва&lt;/th&gt;&lt;th&gt;К-сть&lt;br&gt; шт.&lt;/th&gt;&lt;th&gt; Опис&lt;/th&gt; &lt;th&gt; &nbsp; Ціна &emsp;  &lt;/th&gt; &lt;/tr&gt;&quot;;
+            /*
+            Information about this macro
+            */
 
 
 
+            exports.name = &quot;loctid&quot;;
+
+            exports.params = [
+                {name: &quot;format&quot;}
+            ];
+
+            /*
+            Run the macro
+            */
 
 
-for (var i = 0; i &lt; Qtov; i++) { 
-   n += i 
-k1 = Strtov.indexOf(&quot;;&quot;)+1;
-
-Strtov= Strtov.substring(k1);
-k1 = Strtov.indexOf(&quot;;&quot;)+1;
-tovArt =Strtov.substr(0,k1-1);
-var tovNaz=&quot;помилка&quot;;
-var tovStoim=&quot;помилка&quot;;
-var tovNaz=&quot;Товар не знайдений&quot;;
-var tovStoim=&quot;Вартість не знайдена&quot;;
-var tovVes=&quot;Вага не вказана&quot;;
-var tovVm3=&quot;Обєм не вказаний&quot;;
+            var itogoQP=0;
+            var itogoVes=0;
+            var itogoVm3=0;
 
 
-if(document.querySelectorAll('[title=&quot;'+tovArt +'&quot;]').length&gt;0 ){
+            userName = &quot;&quot;+ decodeURI (document.location);
+            Strtov=userName;
+            var Qtov= ((userName.split(';').length-1)-1)/3;
+            n1 = userName.indexOf(&quot;$&quot;)+1;
 
-tovNaz= document.querySelector('[title=&quot;'+tovArt +'&quot;]').getAttribute('caption') ;
-tovStoim= document.querySelector('[title=&quot;'+tovArt +'&quot;]').getAttribute('price')+&quot; &quot; ;
-tovStoim = tovStoim.replace( /\.$|[^\d.]/gi , &quot;&quot; );
+            userName= userName.substring(n1);
+            n1= userName.indexOf(&quot;$&quot;)+1;
+            userF1=userName.substr(0,n1-1);
 
-tovVes= document.querySelector('[title=&quot;'+tovArt +'&quot;]').getAttribute('weight') ;
-
-
-tovVm3= 0 ;
-}
-
-Strtov= Strtov.substring(k1);
-k1 = Strtov.indexOf(&quot;;&quot;)+1;
-tovQ =Strtov.substr(0,k1-1);
-
-Strtov= Strtov.substring(k1);
-k1 = Strtov.indexOf(&quot;;&quot;)+1;
-tovPr =Strtov.substr(0,k1-1);
-
-timesale=(tovPr/tovStoim*100).toFixed(0)-100;
-
-if (tovPr==tovStoim){ tovStoim=&quot;OK&quot;;}else{ tovStoim=&quot;&lt;p style='color:red;'&gt;&quot;+tovStoim+&quot;&lt;sup&gt; &quot;+timesale+&quot;&amp;#037;&lt;/sup&gt;&quot;+&quot;&lt;/p&gt;&quot;;}
+            userName= userName.substring(n1);
+            n1= userName.indexOf(&quot;$&quot;)+1;
+            userI1=userName.substr(0,n1-1);
 
 
-itogQP=tovQ*tovPr;
-itogoQP=itogoQP+itogQP;
+            userName= userName.substring(n1);
+            n1= userName.indexOf(&quot;$&quot;)+1;
+            userO1=userName.substr(0,n1-1);
+            userO1 = userO1.replace(&quot;%40&quot; ,&quot;@&quot;); 
 
-itogVes=&quot;&quot;; 
-itogoVes=&quot;&quot;;
+
+            userZakaz= userName.substring(n1);
+            userZakaz=userZakaz.replace(&quot;#!heeg&quot;,&quot; &quot;);
+
+            var tovLin=&quot;&quot;;
+            var n=0;
+            var  itogoQP=0;
+
+            strnTopL=&quot;&lt;table border=\&quot;1\&quot; style='background-color:#fff;'&gt;&lt;caption&gt;Таблиця замовлення товарів&lt;/caption&gt;&lt;tr&gt;&lt;th&gt;№&lt;/th&gt;&lt;th&gt;Артикул&lt;/th&gt;&lt;th&gt;Назва&lt;/th&gt;&lt;th&gt;К-сть&lt;br&gt; шт.&lt;/th&gt;&lt;th&gt; Опис&lt;/th&gt; &lt;th&gt; &nbsp; Ціна &emsp;  &lt;/th&gt; &lt;/tr&gt;&quot;;
 
 
-itogVm3=&quot;&quot;; 
-itogoVm3=&quot;&quot;;
 
-tovLin= tovLin + &quot;&lt;tr&gt;&lt;td&gt;&quot;+(i+1)+&quot; &lt;/td&gt; &lt;td&gt; &quot;+&quot;&quot; + tovArt + &quot;&quot;+&quot;&lt;/td&gt;&lt;td&gt; &quot; +tovNaz + &quot;&lt;/td&gt;&lt;td&gt; &quot;+ tovQ +  &quot;&lt;/td&gt;&lt;td&gt;&quot; +tovVes+  &quot;&lt;/td&gt;&lt;td&gt;&quot;+tovPr +&quot;&lt;/td&gt; &lt;/tr&gt;&quot;;
-} 
-tovLin=strnTopL +  tovLin + &quot;&lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt;&lt;td&gt;Разом:&lt;/td&gt; &lt;td&gt;&quot; + itogoQP+&quot; &lt;/td&gt;&lt;/tr&gt; &quot; + &quot; &lt;/table&gt;&quot;;
 
-var vtext = decodeURI(userF1 +&quot;  &lt;br&gt;    &quot; + userI1+&quot;   &lt;br&gt;   &quot; + userO1 +&quot; &lt;br&gt;    ЗАМОВЛЕННЯ: &amp;nbsp;&amp;nbsp;&amp;nbsp;  &quot; + userZakaz +&quot;&lt;br&gt;&quot;+ tovLin);
 
-exports.run = function(format) {
+            for (var i = 0; i &lt; Qtov; i++) { 
+            n += i 
+            k1 = Strtov.indexOf(&quot;;&quot;)+1;
 
-return (vtext);
+            Strtov= Strtov.substring(k1);
+            k1 = Strtov.indexOf(&quot;;&quot;)+1;
+            tovArt =Strtov.substr(0,k1-1);
+            var tovNaz=&quot;помилка&quot;;
+            var tovStoim=&quot;помилка&quot;;
+            var tovNaz=&quot;Товар не знайдений&quot;;
+            var tovStoim=&quot;Вартість не знайдена&quot;;
+            var tovVes=&quot;Вага не вказана&quot;;
+            var tovVm3=&quot;Обєм не вказаний&quot;;
 
-};
 
-})();
+            if(document.querySelectorAll('[title=&quot;'+tovArt +'&quot;]').length&gt;0 ){
 
-</pre>
+            tovNaz= document.querySelector('[title=&quot;'+tovArt +'&quot;]').getAttribute('caption') ;
+            tovStoim= document.querySelector('[title=&quot;'+tovArt +'&quot;]').getAttribute('price')+&quot; &quot; ;
+            tovStoim = tovStoim.replace( /\.$|[^\d.]/gi , &quot;&quot; );
+
+            tovVes= document.querySelector('[title=&quot;'+tovArt +'&quot;]').getAttribute('weight') ;
+
+
+            tovVm3= 0 ;
+            }
+
+        Strtov= Strtov.substring(k1);
+        k1 = Strtov.indexOf(&quot;;&quot;)+1;
+        tovQ =Strtov.substr(0,k1-1);
+
+        Strtov= Strtov.substring(k1);
+        k1 = Strtov.indexOf(&quot;;&quot;)+1;
+        tovPr =Strtov.substr(0,k1-1);
+
+        timesale=(tovPr/tovStoim*100).toFixed(0)-100;
+
+        if (tovPr==tovStoim){ tovStoim=&quot;OK&quot;;}else{ tovStoim=&quot;&lt;p style='color:red;'&gt;&quot;+tovStoim+&quot;&lt;sup&gt; &quot;+timesale+&quot;&amp;#037;&lt;/sup&gt;&quot;+&quot;&lt;/p&gt;&quot;;}
+
+
+        itogQP=tovQ*tovPr;
+        itogoQP=itogoQP+itogQP;
+
+        itogVes=&quot;&quot;; 
+        itogoVes=&quot;&quot;;
+
+
+        itogVm3=&quot;&quot;; 
+        itogoVm3=&quot;&quot;;
+
+        tovLin= tovLin + &quot;&lt;tr&gt;&lt;td&gt;&quot;+(i+1)+&quot; &lt;/td&gt; &lt;td&gt; &quot;+&quot;&quot; + tovArt + &quot;&quot;+&quot;&lt;/td&gt;&lt;td&gt; &quot; +tovNaz + &quot;&lt;/td&gt;&lt;td&gt; &quot;+ tovQ +  &quot;&lt;/td&gt;&lt;td&gt;&quot; +tovVes+  &quot;&lt;/td&gt;&lt;td&gt;&quot;+tovPr +&quot;&lt;/td&gt; &lt;/tr&gt;&quot;;
+        } 
+        tovLin=strnTopL +  tovLin + &quot;&lt;tr&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt; &lt;td&gt;&lt;/td&gt;&lt;td&gt;Разом:&lt;/td&gt; &lt;td&gt;&quot; + itogoQP+&quot; &lt;/td&gt;&lt;/tr&gt; &quot; + &quot; &lt;/table&gt;&quot;;
+
+        var vtext = decodeURI(userF1 +&quot;  &lt;br&gt;    &quot; + userI1+&quot;   &lt;br&gt;   &quot; + userO1 +&quot; &lt;br&gt;    ЗАМОВЛЕННЯ: &amp;nbsp;&amp;nbsp;&amp;nbsp;  &quot; + userZakaz +&quot;&lt;br&gt;&quot;+ tovLin);
+
+        exports.run = function(format) {
+
+        return (vtext);
+
+        };
+
+        })();
+
+        </pre>
         </div>
         <div created="20160120213351714" modified="20160209104327451" tags="$:/tags/Macro" title="$:/_macros/filpar">
             <pre>\define filparn(name)
-&lt;br&gt;
-//min: &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!tag[$:/hide]nsort[$name$]limit[1]]&quot;&gt;  &lt;$view field=&quot;$name$&quot; /&gt; &lt;/$list&gt; max: &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!tag[$:/hide]!nsort[$name$]limit[1]]&quot;&gt;  &lt;$view field=&quot;$name$&quot; /&gt; &lt;/$list&gt; //
-&lt;br&gt;
-От &lt;$edit-text tiddler=&quot;$:/temp/state/filpar/_$name$FROM&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;от &quot; default=&quot;&quot; size=6  oninput=&quot;
-setTimeout(function() { if(document.getElementsByClassName('input_$name$')[0]!=null){document.getElementsByClassName('input_$name$')[0].click();} }, 500);&quot; /&gt;  До &lt;$edit-text tiddler=&quot;$:/temp/state/filpar/_$name$TO&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;до &quot; default=&quot;&quot; size=6   oninput=&quot;
-setTimeout(function() { if(document.getElementsByClassName('input_$name$')[0]!=null){document.getElementsByClassName('input_$name$')[0].click();} }, 500);&quot; /&gt;  
+        &lt;br&gt;
+        //min: &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!tag[$:/hide]nsort[$name$]limit[1]]&quot;&gt;  &lt;$view field=&quot;$name$&quot; /&gt; &lt;/$list&gt; max: &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!tag[$:/hide]!nsort[$name$]limit[1]]&quot;&gt;  &lt;$view field=&quot;$name$&quot; /&gt; &lt;/$list&gt; //
+        &lt;br&gt;
+        От &lt;$edit-text tiddler=&quot;$:/temp/state/filpar/_$name$FROM&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;от &quot; default=&quot;&quot; size=6  oninput=&quot;
+        setTimeout(function() { if(document.getElementsByClassName('input_$name$')[0]!=null){document.getElementsByClassName('input_$name$')[0].click();} }, 500);&quot; /&gt;  До &lt;$edit-text tiddler=&quot;$:/temp/state/filpar/_$name$TO&quot; tag=&quot;input&quot;  type=&quot;text&quot; placeholder=&quot;до &quot; default=&quot;&quot; size=6   oninput=&quot;
+        setTimeout(function() { if(document.getElementsByClassName('input_$name$')[0]!=null){document.getElementsByClassName('input_$name$')[0].click();} }, 500);&quot; /&gt;  
 
-&lt;div style=&quot;display:none&quot;&gt;
-&lt;$button class=&quot;input_$name$&quot;  &gt;
-&lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $filter=&quot;[[]]&quot;/&gt;
-&lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!greaterthan:$name${$:/temp/state/filpar/_$name$FROM}][is[current]tagging[]tag[$:/Note]greaterthan:$name${$:/temp/state/filpar/_$name$TO}]&quot; variable=&quot;add&quot;&gt;
-&lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;[&lt;add&gt;]&quot;/&gt;
-&lt;/$list&gt;
-&lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;[is[current]tagging[]tag[$:/Note]] +[remove{$:/temp/_HideStoryList!!list_$name$}]&quot;/&gt;
-&lt;&lt;ListCombainDel&gt;&gt;
-result
-&lt;/$button&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-\end 
-
-
-
-
-
-\define ListCombain() 
-&lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list&quot;  $subfilter=&quot;[list[$:/temp/_HideStoryList]] +[keep{$:/temp/_HideStoryList!!$(TestList)$}]&quot;/&gt;
-\end 
-
-\define ListCombainDel() 
-
-&lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list&quot; $filter=&quot;[is[current]tagging[]tag[$:/Note]]&quot;/&gt;
-&lt;$list filter=&quot;[[$:/temp/_HideStoryList]fields[]]-creator -created -list -modifier -modified -text -tags -title -type&quot; variable=&quot;caption&quot;&gt;
-&lt;$set name=TestList value=&lt;&lt;caption&gt;&gt; &gt; 
-&lt;&lt;ListCombain&gt;&gt;
-&lt;/$set&gt; 
-&lt;/$list&gt;
-&lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list&quot; $subfilter=&quot;[is[current]tagging[]tag[$:/Note]] +[remove{$:/temp/_HideStoryList!!list}]&quot;/&gt;
-\end 
-
-
-\define thisList(name) 
-
-&lt;$reveal type='nomatch' state='$:/temp/state/filpar/$name$/$(TestVariable)$' text='checked'&gt;
- &lt;$button class='tc-btn-invisible' &gt; &lt;input type=&quot;checkbox&quot;/&gt;
-
-&lt;$list filter='[is[current]tagging[]tag[$:/Note]$name$[$(TestVariable)$]]' variable=&quot;add&quot;&gt;
-&lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;[&lt;add&gt;]&quot;/&gt;
-&lt;/$list&gt;
-
-&lt;&lt;ListCombainDel&gt;&gt;
-
-
-&lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$/$(TestVariable)$'  text='checked'/&gt;
-
-&lt;/$button&gt; -  $(TestVariable)$
-&lt;/$reveal&gt;
-&lt;$reveal type='match' state='$:/temp/state/filpar/$name$/$(TestVariable)$' text='checked'&gt;
-&lt;$button class='tc-btn-invisible'  &gt; &lt;input type=&quot;checkbox&quot; checked=&quot;true&quot;/&gt; 
-
-&lt;$list filter='[is[current]tagging[]tag[$:/Note]$name$[$(TestVariable)$]]' variable=&quot;remove&quot;&gt;
-&lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;-[&lt;remove&gt;]&quot;/&gt;
-&lt;/$list&gt;
-
-&lt;&lt;ListCombainDel&gt;&gt;
-
-
-
-&lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$/$(TestVariable)$' text='unchecked'/&gt;
-&lt;/$button&gt;  - $(TestVariable)$ ?
-&lt;/$reveal&gt;
-\end 
-
-
-\define thisList2(name) 
-&lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$/$(TestVariable2)$' text='checked'/&gt;
-\end 
-
-\define thisList3(name) 
-&lt;$action-deletetiddler $tiddler='$:/temp/state/filpar/$name$/$(TestVariable3)$'/&gt;
-\end 
+        &lt;div style=&quot;display:none&quot;&gt;
+        &lt;$button class=&quot;input_$name$&quot;  &gt;
+        &lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $filter=&quot;[[]]&quot;/&gt;
+        &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]!greaterthan:$name${$:/temp/state/filpar/_$name$FROM}][is[current]tagging[]tag[$:/Note]greaterthan:$name${$:/temp/state/filpar/_$name$TO}]&quot; variable=&quot;add&quot;&gt;
+        &lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;[&lt;add&gt;]&quot;/&gt;
+        &lt;/$list&gt;
+        &lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;[is[current]tagging[]tag[$:/Note]] +[remove{$:/temp/_HideStoryList!!list_$name$}]&quot;/&gt;
+        &lt;&lt;ListCombainDel&gt;&gt;
+        result
+        &lt;/$button&gt;
+        &lt;/div&gt;
+        &lt;hr&gt;
+        \end 
 
 
 
 
 
+        \define ListCombain() 
+        &lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list&quot;  $subfilter=&quot;[list[$:/temp/_HideStoryList]] +[keep{$:/temp/_HideStoryList!!$(TestList)$}]&quot;/&gt;
+        \end 
+
+        \define ListCombainDel() 
+
+        &lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list&quot; $filter=&quot;[is[current]tagging[]tag[$:/Note]]&quot;/&gt;
+        &lt;$list filter=&quot;[[$:/temp/_HideStoryList]fields[]]-creator -created -list -modifier -modified -text -tags -title -type&quot; variable=&quot;caption&quot;&gt;
+        &lt;$set name=TestList value=&lt;&lt;caption&gt;&gt; &gt; 
+        &lt;&lt;ListCombain&gt;&gt;
+        &lt;/$set&gt; 
+        &lt;/$list&gt;
+        &lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list&quot; $subfilter=&quot;[is[current]tagging[]tag[$:/Note]] +[remove{$:/temp/_HideStoryList!!list}]&quot;/&gt;
+        \end 
 
 
-\define filpar(name)
-&lt;br&gt;
+        \define thisList(name) 
 
-&lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]each[$name$]get[$name$]]&quot; variable=&quot;caption&quot;&gt;
-&lt;$set name=TestVariable value=&lt;&lt;caption&gt;&gt; &gt; 
-&lt;&lt;thisList $name$&gt;&gt; &lt;br&gt;
-&lt;/$set&gt; 
-&lt;/$list&gt;
+        &lt;$reveal type='nomatch' state='$:/temp/state/filpar/$name$/$(TestVariable)$' text='checked'&gt;
+        &lt;$button class='tc-btn-invisible' &gt; &lt;input type=&quot;checkbox&quot;/&gt;
 
+        &lt;$list filter='[is[current]tagging[]tag[$:/Note]$name$[$(TestVariable)$]]' variable=&quot;add&quot;&gt;
+        &lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;[&lt;add&gt;]&quot;/&gt;
+        &lt;/$list&gt;
 
-
-&lt;$reveal type='nomatch' state='$:/temp/state/filpar/$name$' text='checked'&gt;
- &lt;$button class='tc-btn-invisible' &gt; &lt;input type=&quot;checkbox&quot;/&gt;
-
-&lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$'  text='checked'/&gt;
-
-&lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]each[$name$]get[$name$]]&quot; variable=&quot;caption&quot;&gt;
-&lt;$set name=TestVariable2 value=&lt;&lt;caption&gt;&gt; &gt; 
-&lt;&lt;thisList2 $name$&gt;&gt;
-&lt;/$set&gt; 
-&lt;/$list&gt;
+        &lt;&lt;ListCombainDel&gt;&gt;
 
 
+        &lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$/$(TestVariable)$'  text='checked'/&gt;
 
-&lt;$list filter='[is[current]tagging[]tag[$:/Note]has[$name$]]' variable=&quot;add&quot;&gt;
-&lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;[&lt;add&gt;]&quot;/&gt;
-&lt;/$list&gt;
-&lt;&lt;ListCombainDel&gt;&gt;
+        &lt;/$button&gt; -  $(TestVariable)$
+        &lt;/$reveal&gt;
+        &lt;$reveal type='match' state='$:/temp/state/filpar/$name$/$(TestVariable)$' text='checked'&gt;
+        &lt;$button class='tc-btn-invisible'  &gt; &lt;input type=&quot;checkbox&quot; checked=&quot;true&quot;/&gt; 
+
+        &lt;$list filter='[is[current]tagging[]tag[$:/Note]$name$[$(TestVariable)$]]' variable=&quot;remove&quot;&gt;
+        &lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;-[&lt;remove&gt;]&quot;/&gt;
+        &lt;/$list&gt;
+
+        &lt;&lt;ListCombainDel&gt;&gt;
 
 
 
-&lt;/$button&gt; -  ''вибрати все''
-&lt;hr&gt;
-&lt;/$reveal&gt;
-
-&lt;$reveal type='match' state='$:/temp/state/filpar/$name$' text='checked'&gt;
-&lt;$button class='tc-btn-invisible' &gt; &lt;input type=&quot;checkbox&quot; checked=&quot;true&quot;/&gt; 
+        &lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$/$(TestVariable)$' text='unchecked'/&gt;
+        &lt;/$button&gt;  - $(TestVariable)$ ?
+        &lt;/$reveal&gt;
+        \end 
 
 
-&lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$'  text='unchecked'/&gt;
+        \define thisList2(name) 
+        &lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$/$(TestVariable2)$' text='checked'/&gt;
+        \end 
 
-&lt;$list filter='[is[current]tagging[]tag[$:/Note]has[$name$]]' variable=&quot;remove&quot;&gt;
-&lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;-[&lt;remove&gt;]&quot;/&gt;
-&lt;/$list&gt;
-&lt;&lt;ListCombainDel&gt;&gt;
-
-&lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]each[$name$]get[$name$]]&quot; variable=&quot;caption&quot;&gt;
-&lt;$set name=TestVariable3 value=&lt;&lt;caption&gt;&gt; &gt; 
-&lt;&lt;thisList3 $name$&gt;&gt;
-&lt;/$set&gt; 
-&lt;/$list&gt;
-
-&lt;/$button&gt;  -  ''прибрати всі''
-&lt;hr&gt;
-&lt;/$reveal&gt;
+        \define thisList3(name) 
+        &lt;$action-deletetiddler $tiddler='$:/temp/state/filpar/$name$/$(TestVariable3)$'/&gt;
+        \end 
 
 
-\end 
 
-</pre>
+
+
+
+
+        \define filpar(name)
+        &lt;br&gt;
+
+        &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]each[$name$]get[$name$]]&quot; variable=&quot;caption&quot;&gt;
+        &lt;$set name=TestVariable value=&lt;&lt;caption&gt;&gt; &gt; 
+        &lt;&lt;thisList $name$&gt;&gt; &lt;br&gt;
+        &lt;/$set&gt; 
+        &lt;/$list&gt;
+
+
+
+        &lt;$reveal type='nomatch' state='$:/temp/state/filpar/$name$' text='checked'&gt;
+        &lt;$button class='tc-btn-invisible' &gt; &lt;input type=&quot;checkbox&quot;/&gt;
+
+        &lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$'  text='checked'/&gt;
+
+        &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]each[$name$]get[$name$]]&quot; variable=&quot;caption&quot;&gt;
+        &lt;$set name=TestVariable2 value=&lt;&lt;caption&gt;&gt; &gt; 
+        &lt;&lt;thisList2 $name$&gt;&gt;
+        &lt;/$set&gt; 
+        &lt;/$list&gt;
+
+
+
+        &lt;$list filter='[is[current]tagging[]tag[$:/Note]has[$name$]]' variable=&quot;add&quot;&gt;
+        &lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;[&lt;add&gt;]&quot;/&gt;
+        &lt;/$list&gt;
+        &lt;&lt;ListCombainDel&gt;&gt;
+
+
+
+        &lt;/$button&gt; -  ''вибрати все''
+        &lt;hr&gt;
+        &lt;/$reveal&gt;
+
+        &lt;$reveal type='match' state='$:/temp/state/filpar/$name$' text='checked'&gt;
+        &lt;$button class='tc-btn-invisible' &gt; &lt;input type=&quot;checkbox&quot; checked=&quot;true&quot;/&gt; 
+
+
+        &lt;$action-setfield $tiddler='$:/temp/state/filpar/$name$'  text='unchecked'/&gt;
+
+        &lt;$list filter='[is[current]tagging[]tag[$:/Note]has[$name$]]' variable=&quot;remove&quot;&gt;
+        &lt;$action-listops  $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$name$&quot; $subfilter=&quot;-[&lt;remove&gt;]&quot;/&gt;
+        &lt;/$list&gt;
+        &lt;&lt;ListCombainDel&gt;&gt;
+
+        &lt;$list filter=&quot;[is[current]tagging[]tag[$:/Note]each[$name$]get[$name$]]&quot; variable=&quot;caption&quot;&gt;
+        &lt;$set name=TestVariable3 value=&lt;&lt;caption&gt;&gt; &gt; 
+        &lt;&lt;thisList3 $name$&gt;&gt;
+        &lt;/$set&gt; 
+        &lt;/$list&gt;
+
+        &lt;/$button&gt;  -  ''прибрати всі''
+        &lt;hr&gt;
+        &lt;/$reveal&gt;
+
+
+        \end 
+
+        </pre>
         </div>
         <div created="20160131140914817" modified="20160131140928988" tags="$:/tags/Macro" title="$:/_macros/gallery">
             <pre>\define ImgGal() 
-&lt;input type=&quot;radio&quot;  id=&quot;$(IG)$&quot; name=&quot;slide_switch&quot; checked=&quot;checked&quot;/&gt;
-	&lt;label for=&quot;$(IG)$&quot;&gt;	&lt;img src=&quot;$(IG)$&quot; /&gt;&lt;/label&gt;
-	&lt;img src=&quot;$(IG)$&quot;/&gt;
-\end 
+        &lt;input type=&quot;radio&quot;  id=&quot;$(IG)$&quot; name=&quot;slide_switch&quot; checked=&quot;checked&quot;/&gt;
+            &lt;label for=&quot;$(IG)$&quot;&gt;	&lt;img src=&quot;$(IG)$&quot; /&gt;&lt;/label&gt;
+            &lt;img src=&quot;$(IG)$&quot;/&gt;
+        \end 
 
-\define Img1Gal() 
-&lt;img style=&quot;position:relative;&quot; src=&quot;$(IG)$&quot;/&gt;
-\end 
+        \define Img1Gal() 
+        &lt;img style=&quot;position:relative;&quot; src=&quot;$(IG)$&quot;/&gt;
+        \end 
 
-\define gallery() 
-&lt;div class=&quot;slider&quot;&gt;
-&lt;$list filter=&quot;[list[!!imgslider]limit[1]]&quot; variable=&quot;caption&quot;&gt;
-&lt;$set name=IG value=&lt;&lt;caption&gt;&gt; &gt; 
-&lt;&lt;Img1Gal&gt;&gt;
-&lt;/$set&gt; 
-&lt;/$list&gt;
-&lt;$list filter=&quot;[list[!!imgslider]]&quot; variable=&quot;caption&quot;&gt;
-&lt;$set name=IG value=&lt;&lt;caption&gt;&gt; &gt; 
-&lt;&lt;ImgGal&gt;&gt;
-&lt;/$set&gt; 
-&lt;/$list&gt;
-&lt;/div&gt;
-\end </pre>
-        </div>
+        \define gallery() 
+        &lt;div class=&quot;slider&quot;&gt;
+        &lt;$list filter=&quot;[list[!!imgslider]limit[1]]&quot; variable=&quot;caption&quot;&gt;
+        &lt;$set name=IG value=&lt;&lt;caption&gt;&gt; &gt; 
+        &lt;&lt;Img1Gal&gt;&gt;
+        &lt;/$set&gt; 
+        &lt;/$list&gt;
+        &lt;$list filter=&quot;[list[!!imgslider]]&quot; variable=&quot;caption&quot;&gt;
+        &lt;$set name=IG value=&lt;&lt;caption&gt;&gt; &gt; 
+        &lt;&lt;ImgGal&gt;&gt;
+        &lt;/$set&gt; 
+        &lt;/$list&gt;
+        &lt;/div&gt;
+        \end </pre>
+                </div>
         <div created="20171201032023048" modified="20171201034331982" tags="$:/tags/Macro" title="$:/_macros/table">
             <pre>\define displaytemplate(templatename)
-&lt;$set name=&quot;template&quot; value=&quot;$templatename$&quot;&gt;
-{{||$templatename$}} 
-&lt;/$set&gt;
-\end</pre>
-        </div>
+        &lt;$set name=&quot;template&quot; value=&quot;$templatename$&quot;&gt;
+        {{||$templatename$}} 
+        &lt;/$set&gt;
+        \end</pre>
+                </div>
         <div all="" created="20151125165322235" id_magazina="51048367" modified="20171223185522259" moneta1017=""
             moneta1020="" moneta31196="" moneta32767="" moneta32863="" moneta36992="" oplbeznal=""
             oplnk="&lt;option value='oplnk'&gt;Готівкою при отриманні &lt;/option&gt;" tags="" test_1or0="1"
@@ -1064,8 +998,8 @@ result
         </div>
         <div created="20160224173359657" modified="20171108110003356" tags="" title="$:/_MyBag">
             <pre> &lt;div class =&quot;korzinka3&quot;  &gt; 		&lt;div class=&quot;simpleCart_hide&quot;&gt; &lt;a class=&quot;simpleCart_total&quot;&gt; Кошик пустий&lt;/a&gt;
-&lt;/div&gt; &lt;div  class=&quot;orange&quot; style=&quot;height: 100%; width: 50px; position: absolute; top: 0px; right: 0px;   &quot;&gt; {{$:/_aa/button/Cart}}    &lt;/div&gt; &lt;/div&gt;</pre>
-        </div>
+        &lt;/div&gt; &lt;div  class=&quot;orange&quot; style=&quot;height: 100%; width: 50px; position: absolute; top: 0px; right: 0px;   &quot;&gt; {{$:/_aa/button/Cart}}    &lt;/div&gt; &lt;/div&gt;</pre>
+                </div>
         <div created="20150207094915185" modified="20151029173344674" title="$:/_mybag_total"
             type="text/vnd.tiddlywiki">
             <pre>&lt;div class=&quot;Cart_total&quot;&gt; &lt;span class=&quot;simpleCart_total&quot;&gt;&lt;/span&gt;&lt;/div&gt; </pre>
@@ -1078,7 +1012,7 @@ result
             <pre>Ничего не найдено. Уточните выбор по параметрам.</pre>
         </div>
         <div created="20150327055711508" modified="20150327055738007" title="$:/_Paypal_country">
-            <pre>ru</pre>
+            <pre>ua</pre>
         </div>
         <div created="20150327055904698" modified="20150327055909510" title="$:/_Paypal_currency">
             <pre>RUB</pre>
@@ -1097,97 +1031,97 @@ result
             type="text/vnd.tiddlywiki">
             <pre>\define selPar() 
 
-&lt;div class=&quot;hideparam&quot;&gt;{{$(name)$!!selpar}} &lt;/div&gt;  
-\end 
+        &lt;div class=&quot;hideparam&quot;&gt;{{$(name)$!!selpar}} &lt;/div&gt;  
+        \end 
 
 
-\define ListCombain3() 
-&lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;$(TestList)$&quot; $filter=&quot;[[]]&quot;/&gt;
+        \define ListCombain3() 
+        &lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;$(TestList)$&quot; $filter=&quot;[[]]&quot;/&gt;
 
-\end 
-
-
-\define ListCombain4() 
-&lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$(MyFields)$&quot; $filter=&quot;[[]]&quot;/&gt;
-
-\end 
+        \end 
 
 
+        \define ListCombain4() 
+        &lt;$action-listops $tiddler=&quot;$:/temp/_HideStoryList&quot; $field=&quot;list_$(MyFields)$&quot; $filter=&quot;[[]]&quot;/&gt;
 
-
-
-
-&lt;$list filter=&quot;[{$:/HistoryList!!current-tiddler}has[selpar]]&quot; variable=&quot;caption&quot;&gt;
- &lt;div class=&quot;makefix&quot;&gt;
-&lt;div class=&quot;viborpar&quot;&gt; Вибір по параметрам: &lt;/div&gt;
+        \end 
 
 
 
 
 
 
-&lt;$set name=&quot;name&quot;  value=&lt;&lt;caption&gt;&gt; &gt; 
-
-&lt;&lt;selPar&gt;&gt;
-&lt;/$set&gt; 
-
-
-&lt;$button class='tc-btn-invisible' &gt;
+        &lt;$list filter=&quot;[{$:/HistoryList!!current-tiddler}has[selpar]]&quot; variable=&quot;caption&quot;&gt;
+        &lt;div class=&quot;makefix&quot;&gt;
+        &lt;div class=&quot;viborpar&quot;&gt; Вибір по параметрам: &lt;/div&gt;
 
 
 
 
-&lt;$list filter=&quot;[[$:/temp/_HideStoryList]fields[]]-creator -created -modifier -modified -text -tags -title -type&quot; variable=&quot;caption&quot;&gt;
-&lt;$set name=TestList value=&lt;&lt;caption&gt;&gt; &gt; 
-&lt;&lt;ListCombain3&gt;&gt;
-&lt;/$set&gt; 
-&lt;/$list&gt;
 
 
-&lt;$list filter=&quot;[list[$:/HistoryList!!current-tiddler]tagging[]tag[$:/Note]fields[]]-selpar -description -list -creator -created -modifier -modified -text -tags -title -type&quot; variable=&quot;caption&quot;&gt;
-&lt;$set name=MyFields value=&lt;&lt;caption&gt;&gt; &gt; 
-&lt;&lt;ListCombain4&gt;&gt;
-&lt;/$set&gt; 
-&lt;/$list&gt;
+        &lt;$set name=&quot;name&quot;  value=&lt;&lt;caption&gt;&gt; &gt; 
+
+        &lt;&lt;selPar&gt;&gt;
+        &lt;/$set&gt; 
+
+
+        &lt;$button class='tc-btn-invisible' &gt;
 
 
 
 
-&lt;$list filter='[prefix[$:/temp/state/filpar/]]'&gt;
-&lt;$fieldmangler tiddler=&lt;&lt;currentTiddler&gt;&gt;&gt;
-&lt;$action-deletetiddler $tiddler=&lt;&lt;currentTiddler&gt;&gt; /&gt;
-&lt;/$fieldmangler&gt;
-&lt;/$list&gt;
-'' ✓ - скинути всі фільтри''
-&lt;/$button&gt;
-&lt;/div&gt;
-&lt;/$list&gt;
+        &lt;$list filter=&quot;[[$:/temp/_HideStoryList]fields[]]-creator -created -modifier -modified -text -tags -title -type&quot; variable=&quot;caption&quot;&gt;
+        &lt;$set name=TestList value=&lt;&lt;caption&gt;&gt; &gt; 
+        &lt;&lt;ListCombain3&gt;&gt;
+        &lt;/$set&gt; 
+        &lt;/$list&gt;
 
-</pre>
-        </div>
-        <div created="20150216204441874" modified="20180609091227813" tags="$:/tags/ViewTemplate"
-            title="$:/_show_podrazdel" type="text/vnd.tiddlywiki">
-            <pre>&lt;$list filter=&quot;[all[current]tag[$:/TOC]]&quot;&gt;  
-{{||$:/_tovar_podrazdel_plitki}}{{||$:/_tovar_podrazdel}}{{||$:/_aa/sort/stoimostup}}
-&lt;/$list&gt;</pre>
-        </div>
+
+        &lt;$list filter=&quot;[list[$:/HistoryList!!current-tiddler]tagging[]tag[$:/Note]fields[]]-selpar -description -list -creator -created -modifier -modified -text -tags -title -type&quot; variable=&quot;caption&quot;&gt;
+        &lt;$set name=MyFields value=&lt;&lt;caption&gt;&gt; &gt; 
+        &lt;&lt;ListCombain4&gt;&gt;
+        &lt;/$set&gt; 
+        &lt;/$list&gt;
+
+
+
+
+        &lt;$list filter='[prefix[$:/temp/state/filpar/]]'&gt;
+        &lt;$fieldmangler tiddler=&lt;&lt;currentTiddler&gt;&gt;&gt;
+        &lt;$action-deletetiddler $tiddler=&lt;&lt;currentTiddler&gt;&gt; /&gt;
+        &lt;/$fieldmangler&gt;
+        &lt;/$list&gt;
+        '' ✓ - скинути всі фільтри''
+        &lt;/$button&gt;
+        &lt;/div&gt;
+        &lt;/$list&gt;
+
+        </pre>
+                </div>
+                <div created="20150216204441874" modified="20180609091227813" tags="$:/tags/ViewTemplate"
+                    title="$:/_show_podrazdel" type="text/vnd.tiddlywiki">
+                    <pre>&lt;$list filter=&quot;[all[current]tag[$:/TOC]]&quot;&gt;  
+        {{||$:/_tovar_podrazdel_plitki}}{{||$:/_tovar_podrazdel}}{{||$:/_aa/sort/stoimostup}}
+        &lt;/$list&gt;</pre>
+                </div>
         <div created="20151128060828124" mkg="no" modified="20161124115421874" mv3="no" tags="" title="$:/_show_Vm3_Mkg"
             vm3="no">
             <pre></pre>
         </div>
         <div created="20151022114545033" modified="20151125115405639" title="$:/_siteEmail">
-            <pre>zip13@list.ru</pre>
+            <pre>yovdigabor@gmail.com</pre>
         </div>
         <div created="20150224111751917" modified="20150224113408808" tags="$:/tags/Macro" title="$:/_sitemap"
             type="text/vnd.tiddlywiki">
             <pre>`&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;`
+        &lt;urlset xmlns=&quot;http://www.sitemaps.org/schemas/sitemap/0.9&quot;&gt;`
 
-&lt;$list filter=&quot;[tag[$:/Note]!tag[$(tags)$]][tag[$:/TOC]!tag[$(tags)$]]&quot;&gt; `&lt;url&gt; &lt;loc&gt;`&lt;$view  tiddler=&quot;$:/_siteURL&quot;/&gt;&lt;$view field=&quot;title&quot; format=&quot;doubleurlencoded&quot;/&gt;.html`&lt;/loc&gt; &lt;lastmod&gt;`&lt;$view field=&quot;modified&quot; format=&quot;date&quot; template=&quot;YYYY\-0MM\-0DD&quot;/&gt;`&lt;/lastmod&gt;  &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; &lt;/url&gt; ` &lt;br/&gt;&lt;/$list&gt;
+        &lt;$list filter=&quot;[tag[$:/Note]!tag[$(tags)$]][tag[$:/TOC]!tag[$(tags)$]]&quot;&gt; `&lt;url&gt; &lt;loc&gt;`&lt;$view  tiddler=&quot;$:/_siteURL&quot;/&gt;&lt;$view field=&quot;title&quot; format=&quot;doubleurlencoded&quot;/&gt;.html`&lt;/loc&gt; &lt;lastmod&gt;`&lt;$view field=&quot;modified&quot; format=&quot;date&quot; template=&quot;YYYY\-0MM\-0DD&quot;/&gt;`&lt;/lastmod&gt;  &lt;changefreq&gt;weekly&lt;/changefreq&gt;&lt;priority&gt;0.5&lt;/priority&gt; &lt;/url&gt; ` &lt;br/&gt;&lt;/$list&gt;
 
   
-`&lt;/urlset&gt;`</pre>
-        </div>
+            `&lt;/urlset&gt;`</pre>
+                    </div>
         <div caption="адреса магазину" created="20180529063113253" i="2" modified="20180529063113253"
             title="$:/_siteURL">
             <pre>http://index.html?id=1v1QMm_DkivVqVxSZoq3poYDmTiP6zrWPL1r8y1cWyVA</pre>
@@ -1198,41 +1132,41 @@ result
         </div>
         <div created="20171029142006266" modified="20171112185351984" tags="" title="$:/_table/sort/titleup">
             <pre> &lt;table style=&quot;width:100%;&quot;&gt;    &lt;$list filter=&quot;[is[current]tagging[]!is[system]!is[shadow]tag[$:/Note]!tag[$:/hide]!tag[$:/TOC]!list[$:/temp/_HideStoryList!!list]]&quot;&gt;   &lt;tr&gt;&lt;td&gt; &lt;$link&gt;&lt;$view field=&quot;description&quot;/&gt; &lt;/$link&gt; &lt;/td&gt;&lt;td&gt;            &lt;$view field=&quot;price&quot;/&gt;{{$:/constant/_valuta}}         &lt;/td&gt;&lt;td&gt;                    &lt;span class=&quot;textboxmini&quot;&gt; 
-{{||$:/_tile}}
- &lt;/span&gt; &lt;/td&gt;&lt;/tr&gt; &lt;/$list&gt; &lt;/table&gt;  </pre>
+            {{||$:/_tile}}
+            &lt;/span&gt; &lt;/td&gt;&lt;/tr&gt; &lt;/$list&gt; &lt;/table&gt;  </pre>
         </div>
         <div created="20171029145530326" modified="20171112184608709" tags="" title="$:/_table/sort/titleup_limit4">
             <pre> &lt;table  style=&quot;width:100%;&quot;&gt;    &lt;$list filter=&quot;[is[current]tagging[]!is[system]!is[shadow]tag[$:/Note]!tag[$:/hide]!tag[$:/TOC]!list[$:/temp/_HideStoryList!!list]limit[4]]&quot;&gt;   &lt;tr&gt;&lt;td&gt; &lt;$link&gt;&lt;$view field=&quot;description&quot;/&gt;&lt;/$link&gt; &lt;/td&gt;&lt;td&gt;            &lt;$view field=&quot;price&quot;/&gt;{{$:/constant/_valuta}}         &lt;/td&gt;&lt;td&gt;                    &lt;span class=&quot;textboxmini&quot;&gt; 
-{{||$:/_tile}}
- &lt;/span&gt; &lt;/td&gt;&lt;/tr&gt; &lt;/$list&gt; &lt;/table&gt;  </pre>
+                {{||$:/_tile}}
+            &lt;/span&gt; &lt;/td&gt;&lt;/tr&gt; &lt;/$list&gt; &lt;/table&gt;  </pre>
         </div>
         <div created="20160814114341185" creator="Danielo"
             info="в поле _canonical_uri добавьте путь до картинки, в поле alt напишите, что на картинке, и нажмите кнопку +. Чтобы добавить маленькое изображение на плитку товара, создайте поле с Назвам preview и укажите в нем путь до картинки. Если поле  preview в товаре отсутствует, то на плитке товара будет первое большое изображение товара. В левой колонке можно указать системное Назва картинки. По нему происходит сортировка изображений при выводе в слайдере. "
             modified="20170112122726867" modifier="Danielo Rodriguez" tags="$:/tags/EditTemplate"
             title="$:/_template/table">
             <pre>&lt;$set name=&quot;fields-source&quot; value={{Editable-Table!!title}}&gt;
-&lt;$set name=&quot;filter-tag&quot; value={{!!draft.title}} &gt;
-&lt;$set name=&quot;sortField&quot; value={{Editable-Table!!sort-field}}&gt;
+            &lt;$set name=&quot;filter-tag&quot; value={{!!draft.title}} &gt;
+            &lt;$set name=&quot;sortField&quot; value={{Editable-Table!!sort-field}}&gt;
 
-&lt;div class=&quot;info_title&quot;&gt;&lt;div class=&quot;inform&quot; data-title={{$:/_template/table!!info}}&gt;?&lt;/div&gt;
-Добавить большие изображения товара
-&lt;/div&gt;
+            &lt;div class=&quot;info_title&quot;&gt;&lt;div class=&quot;inform&quot; data-title={{$:/_template/table!!info}}&gt;?&lt;/div&gt;
+            Добавить большие изображения товара
+            &lt;/div&gt;
 
-@@.reactive-table
-&lt;table style=&quot;text-align:center; width:100%;&quot;&gt;
-&lt;tbody&gt;
-&lt;&lt;add-entry-Row&gt;&gt;
-&lt;&lt;displayRows&gt;&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-@@
+            @@.reactive-table
+            &lt;table style=&quot;text-align:center; width:100%;&quot;&gt;
+            &lt;tbody&gt;
+            &lt;&lt;add-entry-Row&gt;&gt;
+            &lt;&lt;displayRows&gt;&gt;
+            &lt;/tbody&gt;
+            &lt;/table&gt;
+            @@
 
-&lt;/$set&gt;
-&lt;/$set&gt;&lt;/$set&gt;</pre>
-        </div>
-        <div created="20170603082456795" modified="20171106103548797" tags="" title="$:/_text/index1">
-            <pre>Ласкаво просимо.
-</pre>
+        &lt;/$set&gt;
+        &lt;/$set&gt;&lt;/$set&gt;</pre>
+                </div>
+                <div created="20170603082456795" modified="20171106103548797" tags="" title="$:/_text/index1">
+                    <pre>Ласкаво просимо.
+        </pre>
         </div>
         <div created="20170603082902659" modified="20170603082922205" tags="" title="$:/_text/index2">
             <pre>текст.</pre>
@@ -1254,12 +1188,12 @@ result
         </div>
         <div created="20170603091047446" modified="20170603091210849" tags="" title="$:/_text/index7"
             title1="НАДЕЖНОСТЬ" title2="Отсутствие сбоев">
-            <pre>Многие системы CMS HEEG.HTML задублированы. Заказы клиента принимают и хранят 2 внешних сервиса. Каждая страница магазина задублирована своей .html копией. Вы постоянно создаете резервные копии магазина на своем компьютере. Магазин будет частично работать даже при отсутствии интернет соединения. Можно переходить между товарами, добавлять товары в кошик. </pre>
+            <pre> </pre>
         </div>
         <div created="20150407054443024" modified="20190302055153224" tags="" title="$:/_tile">
             <pre>\define imgBack()    
-background-image: url($(name)$);
-\end
+        background-image: url($(name)$);
+        \end
 
 \define imgSmall() 
 &lt;$list filter=&quot;[is[tiddler]type[image/jpeg]prefix[small_$(current)$]nth[1]]&quot;&gt;
@@ -23244,25 +23178,8 @@ id МОЕЙ опубликованной и расшаренной гугл та
 @@color:red;1GzZFzmgF-vBrRYOyz5VqjJC8QAQcOHnFBa1PEW9NhcU@@
 /edit#gid=1627697525
 
-Примеры магазинов , которые при открытии загружают данные из гугл таблиц
-
-[[&quot;1&quot;|http://novye-podarki.ru/frame.html?id=1GzZFzmgF-vBrRYOyz5VqjJC8QAQcOHnFBa1PEW9NhcU]]
-[[&quot;2&quot;|http://novye-podarki.ru/heeg33_.html?id=1Oaeue_pQWn01EY5f2ghiTgkLsq5Rm7xbFr89_R801JQ]]
-[[&quot;3&quot;|http://novye-podarki.ru/black.html?id=1GzZFzmgF-vBrRYOyz5VqjJC8QAQcOHnFBa1PEW9NhcU]]
-[[&quot;4&quot;|http://novye-podarki.ru/grey.html?id=1GzZFzmgF-vBrRYOyz5VqjJC8QAQcOHnFBa1PEW9NhcU]]
-
-можно менять id в URL этих магазинов на свой.
-
-Примеры таблиц, из которых магазины могут брать информацию.
-
-https://docs.google.com/spreadsheets/d/1GzZFzmgF-vBrRYOyz5VqjJC8QAQcOHnFBa1PEW9NhcU/
-
-https://docs.google.com/spreadsheets/d/1Oaeue_pQWn01EY5f2ghiTgkLsq5Rm7xbFr89_R801JQ/
 
 
-ПЕРЕЙДИТЕ ПО ОДНОЙ ИЗ ДВУХ ССЫЛОК И СОЗДАЙТЕ КОПИЮ НА СВОЙ ГУГЛ АККАУНТ. ПОСЛЕ ЭТОГО У ВАС ПОЯВИТСЯ ВОЗМОЖНОСТЬ РЕДАКТИРОВАТЬ (УЖЕ СВОЮ) ТАБЛИЦУ РАЗДЕЛОВ, ТОВАРОВ итд.  ПОСЛЕ РЕДАКТИРОВАНИЯ ОПУБЛИКУЙТЕ И РАСШАРЬТЕ ТАБЛИЦУ (обязательно и то и другое, просто опубликовать или расшарить недостаточно), ЗАТЕМ УКАЖИТЕ ID ТАБЛИЦЫ В НАСТРОЙКАХ МАГАЗИНА.
-
----
 &lt;br&gt;
 &lt;$tiddler tiddler=&quot;SpreadsheetsUse&quot;&gt;
 &lt;$radio value=&quot;yes&quot;&gt;Загружать даные магазина из гугл таблицы, если указан ЛЮБОЙ ?id= в URL магазина&lt;/$radio&gt;
@@ -23685,161 +23602,7 @@ URL отправки запроса &lt;$edit-text tiddler=&quot;$:/_Moneta.ru&q
 
 </pre>
         </div>
-        <div caption="Велосипед 1
-" created="20200130171341126" i="3" modified="20200130171341126" old-price="2254" price="2049" tags="index $:/Note"
-            title="A1001">
-            <pre>Велосипед щойно з Австрії в ідеальному стані, 
 
-ход вилки 100, готовий до сезону. розмір рами 48см; розмір колеса 26&quot;
-</pre>
-        </div>
-        <div _canonical_uri="https://drive.google.com/uc?export=download&amp;confirm=no_antivirus&amp;id=1_O8sni9vWbhDcemUlGODRHboBIs8vRNT"
-            created="20200130171341402" i="9" modified="20200130171341402" title="A1001_KTM-ultra.jpg"
-            type="image/jpeg">
-            <pre></pre>
-        </div>
-        <div caption="Велосипед 2" created="20200130171341126" i="4" modified="20200130171341126" old-price="4619"
-            price="4199" tags="index $:/Note" title="A1002">
-            <pre>Велосипед щойно з Австрії в ідеальному стані, 
-
-ход вилки 100, готовий до сезону. розмір рами 48см; розмір колеса 26&quot;
-</pre>
-        </div>
-        <div _canonical_uri="https://drive.google.com/uc?export=download&amp;confirm=no_antivirus&amp;id=17bCgeKkJwehl406M_h2ucVb5moMWrCaO"
-            created="20200130171341402" i="7" modified="20200130171341402" title="A1002_KTM-original.jpg"
-            type="image/jpeg">
-            <pre></pre>
-        </div>
-        <div caption="Велосипед 3" created="20200130171341126" i="5" modified="20200130171341126" old-price="1869"
-            price="1699" tags="index $:/Note" title="A1003">
-            <pre>Велосипед щойно з Австрії в ідеальному стані, 
-
-ход вилки 100, готовий до сезону. розмір рами 48см; розмір колеса 26&quot;
-</pre>
-        </div>
-        <div _canonical_uri="https://drive.google.com/uc?export=download&amp;confirm=no_antivirus&amp;id=1UC_Zx3y1on79lDB-RQ2XnhZtdFnR0JLz"
-            created="20200130171341402" i="6" modified="20200130171341402" title="A1003_elektro.jpg" type="image/jpeg">
-            <pre></pre>
-        </div>
-        <div caption="Велосипед 4" created="20200130171341126" i="6" modified="20200130171341126" old-price="3519"
-            price="3199" tags="index $:/Note" title="A1004">
-            <pre>Велосипед щойно з Австрії в ідеальному стані, 
-
-ход вилки 100, готовий до сезону. розмір рами 48см; розмір колеса 26&quot;
-</pre>
-        </div>
-        <div _canonical_uri="https://drive.google.com/uc?export=download&amp;confirm=no_antivirus&amp;id=1sjbw7jz_yCWiLNZidydXffI1LuQG3hl2"
-            created="20200130171341402" i="5" modified="20200130171341402" title="A1004_genesis-solution.jpg"
-            type="image/jpeg">
-            <pre></pre>
-        </div>
-        <!--   <div caption="Оплата і доставка" created="20200130171341212" fontawesome="&amp;#xf0d1;" i="9"
-            modified="20200130171341212" tags="top_menu $:/TOC" title="about_cms">
-            <pre>---
-
-!!Варианты оплаты
-//&lt;p&gt;&lt;strong&gt;Наличный расчёт&lt;/strong&gt;&lt;/p&gt;//
-&lt;p&gt;Вы можете оплатить заказ наличными курьеру при его получении или в пункте самовывоза.
-&lt;br&gt;При получении товара обязательно проверьте комплектацию заказа, наличие гарантийного талона и чека.&lt;/p&gt;
-
-//&lt;p&gt;&lt;strong&gt;Безналичный расчёт&lt;/strong&gt;&lt;/p&gt;//
-&lt;p&gt;После оформления заказа будет сформирован счёт на оплату, который Вы можете распечатать и оплатить. Денежные средства поступят на наш счёт в течение 2-3 рабочих дней после оплаты заказа.
-&lt;br&gt;Оплата заказов клиентами - юридическими лицами возможна только по безналичному расчёту.
-&lt;br&gt;Все необходимые для бухгалтерии документы (оригинал счёта на оплату, счёт-фактура, накладная) выдаются вместе с заказом при получении.&lt;/p&gt;
-
-//&lt;p&gt;&lt;strong&gt;Банковские карты&lt;/strong&gt;&lt;/p&gt;//
-&lt;p&gt;Сервис приёма оплаты предоставлен &lt;a href=&quot;http://payanyway.ru/&quot;&gt;PayAnyWay&lt;/a&gt;.&lt;/p&gt;
-&lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td width=&quot;100&quot; valign=&quot;top&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/visa.png&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/mastercard.png&quot;&gt;&lt;/p&gt;
-
-&lt;/td&gt;
-&lt;td valign=&quot;top&quot;&gt;
-&lt;p&gt;PayAnyWay не передает данные Вашей карты магазину и иным третьим лицам. Безопасность платежей с помощью банковских карт обеспечивается технологиями защищенного соединения HTTPS и двухфакторной аутентификации пользователя 3D Secure.&lt;/p&gt;
-&lt;p&gt;В соответствии с ФЗ «О защите прав потребителей» в случае, если Вам оказана услуга или реализован товар ненадлежащего качества, платеж может быть возвращен на банковскую карту, с которой производилась оплата. Порядок возврата средств уточняйте у администрации интернет магазина.&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-//&lt;p&gt;&lt;strong&gt;Электронные деньги&lt;/strong&gt;&lt;/p&gt;//
-&lt;table border=&quot;0&quot; cellspacing=&quot;0&quot; cellpadding=&quot;0&quot;&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td width=&quot;100&quot; valign=&quot;top&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/wm_transparent.png&quot;&gt;&lt;/p&gt;
-
-&lt;/td&gt;
-&lt;td valign=&quot;top&quot;&gt;
-&lt;p&gt;&lt;strong&gt;WebMoney&lt;/strong&gt;
-&lt;br&gt;Для совершения оплаты вы должны быть зарегистрированы в системе WebMoney Transfer. К оплате принимаются титульные знаки WMR, зачисление денег происходит мгновенно.&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-
-&lt;tr&gt;
-&lt;td width=&quot;100&quot; valign=&quot;top&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/yandexmoney.png&quot;&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td valign=&quot;top&quot;&gt;
-&lt;p&gt;&lt;strong&gt;Яндекс.Деньги&lt;/strong&gt;
-&lt;br&gt;Для осуществления оплаты с помощью сервиса Яндекс.Деньги вам необходимо иметь кошелек, зарегистрированный на сайте системы.
-&lt;br&gt;Зачисление платежей через сервис Яндекс.Деньги происходит мгновенно.&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td width=&quot;100&quot; valign=&quot;top&quot;&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/qiwi.png&quot;&gt;&lt;/p&gt;
-&lt;/td&gt;
-&lt;td valign=&quot;top&quot;&gt;
-&lt;p&gt;&lt;strong&gt;QIWI Кошелек&lt;/strong&gt;
-&lt;br&gt;Выберите в качестве оплаты QIWI Кошелёк и введите номер своего сотового телефона. Оплатите созданный автоматически счёт на сайте сервиса.
-&lt;br&gt;Если у вас нет QIWI Кошелька, Вам необходимо зарегистрировать его на сайте сервиса или в любом из приложений QIWI Кошелька.&lt;/p&gt;
-&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-
-//&lt;p&gt;&lt;strong&gt;Банковские сервисы&lt;/strong&gt;&lt;/p&gt;//
-&lt;p&gt;Системы онлайн-банкинга «Сбербанк ОнЛ@йн», «Альфа-Клик», «Промсвязьбанк», «Русский Стандарт», «Faktura.ru».
-&lt;br&gt;Банковским или почтовым переводом, а также через систему денежных переводов «CONTACT».&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/bank.png&quot;&gt;&lt;/p&gt;
-
-//&lt;p&gt;&lt;strong&gt;Платёжные терминалы&lt;/strong&gt;&lt;/p&gt;//
-&lt;p&gt;Элекснет, ОПЛАТА.РУ, Федеральная система Город, Московский кредитный банк, Форвард Мобайл, НКО «ЛИДЕР».&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/terminal.png&quot;&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;SMS сервисы&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Сотовые операторы Мегафон, МТС, Beeline, Tele2&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/megafon.png&quot;&gt;&amp;nbsp;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/mts.png&quot;&gt;&amp;nbsp;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/beeline.png&quot;&gt;&amp;nbsp;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/tele2.png&quot;&gt;&lt;/p&gt;
-
-
-&lt;p&gt;&lt;strong&gt;Возникли вопросы по оплате?&lt;/strong&gt;&lt;br/&gt;
-Воспользуйтесь &lt;a href=&quot;http://payanyway.ru/info/w/ru/public/w/payment-methods/index.html&quot; target=&quot;_blank&quot;&gt;подробными инструкциями&lt;/a&gt; по каждому из способов оплаты или свяжитесь с нами.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Служба поддержки покупателей PayAnyWay&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://payanyway.ru/&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;https://www.moneta.ru/info/public/requirements/payanyway.gif&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Телефон: 067-304-05-21
-&lt;br&gt;E-mail: &lt;a href=&quot;mailto:helpdesk.support@payanyway.ru&quot;&gt;helpdesk.support@payanyway.ru&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Реквизиты для безналичной оплаты:&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;ООО «Наименование организации»
-&lt;br&gt;Юридический адрес:
-&lt;br&gt;ИНН 1234567890, ОГРН 1234567891234
-&lt;br&gt;Банковские реквизиты: р/с 40000000000000000000
-&lt;br&gt;Банк: ОАО АКБ «БАНК» г. Москва, БИК 044000000
-&lt;br&gt;к/с 30000000000000000000
-&lt;br&gt;тел. (495) 123-45-67, e-mail:&lt;/p&gt;
-
-</pre>
-        </div> -->
-
-        <div caption="Банковская карта (YM)" created="20160424144043372" modified="20160424144113080" stoimost="0"
-            tags="" title="AC">
-            <pre></pre>
-        </div>
         <div caption="адрес" created="20200130171341317" i="14" modified="20200130171341317" title="adress">
             <pre>90436, Україна, с.Іза</pre>
         </div>
